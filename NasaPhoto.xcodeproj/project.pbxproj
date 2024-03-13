@@ -14,6 +14,20 @@
 		E786EE7B2BA21DC1003797AD /* NasaPhoto.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E786EE792BA21DC1003797AD /* NasaPhoto.xcdatamodeld */; };
 		E786EE7D2BA21DC3003797AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E786EE7C2BA21DC3003797AD /* Assets.xcassets */; };
 		E786EE802BA21DC3003797AD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E786EE7E2BA21DC3003797AD /* LaunchScreen.storyboard */; };
+		E786EE892BA22012003797AD /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = E786EE882BA22012003797AD /* Lottie */; };
+		E786EE8B2BA2208D003797AD /* lottie-animation.json in Resources */ = {isa = PBXBuildFile; fileRef = E786EE8A2BA2208D003797AD /* lottie-animation.json */; };
+		E786EE8D2BA22C93003797AD /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E786EE8C2BA22C93003797AD /* MainViewController.swift */; };
+		E786EE902BA23040003797AD /* View + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E786EE8F2BA23040003797AD /* View + Extension.swift */; };
+		E786EE932BA235BB003797AD /* MainViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E786EE912BA235BB003797AD /* MainViewCell.swift */; };
+		E786EE942BA235BB003797AD /* MainViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E786EE922BA235BB003797AD /* MainViewCell.xib */; };
+		E786EEA12BA23873003797AD /* SFPRODISPLAYHEAVYITALIC.OTF in Resources */ = {isa = PBXBuildFile; fileRef = E786EE982BA23873003797AD /* SFPRODISPLAYHEAVYITALIC.OTF */; };
+		E786EEA22BA23873003797AD /* SFPRODISPLAYLIGHTITALIC.OTF in Resources */ = {isa = PBXBuildFile; fileRef = E786EE992BA23873003797AD /* SFPRODISPLAYLIGHTITALIC.OTF */; };
+		E786EEA32BA23873003797AD /* SFPRODISPLAYBLACKITALIC.OTF in Resources */ = {isa = PBXBuildFile; fileRef = E786EE9A2BA23873003797AD /* SFPRODISPLAYBLACKITALIC.OTF */; };
+		E786EEA42BA23873003797AD /* SFPRODISPLAYREGULAR.OTF in Resources */ = {isa = PBXBuildFile; fileRef = E786EE9B2BA23873003797AD /* SFPRODISPLAYREGULAR.OTF */; };
+		E786EEA52BA23873003797AD /* SFPRODISPLAYTHINITALIC.OTF in Resources */ = {isa = PBXBuildFile; fileRef = E786EE9C2BA23873003797AD /* SFPRODISPLAYTHINITALIC.OTF */; };
+		E786EEA62BA23873003797AD /* SF-PRO-BOLD.OTF in Resources */ = {isa = PBXBuildFile; fileRef = E786EE9D2BA23873003797AD /* SF-PRO-BOLD.OTF */; };
+		E786EEA72BA23873003797AD /* SFPRODISPLAYMEDIUM.OTF in Resources */ = {isa = PBXBuildFile; fileRef = E786EE9E2BA23873003797AD /* SFPRODISPLAYMEDIUM.OTF */; };
+		E786EEA82BA23873003797AD /* SFPRODISPLAYULTRALIGHTITALIC.OTF in Resources */ = {isa = PBXBuildFile; fileRef = E786EE9F2BA23873003797AD /* SFPRODISPLAYULTRALIGHTITALIC.OTF */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +40,19 @@
 		E786EE7C2BA21DC3003797AD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E786EE7F2BA21DC3003797AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E786EE812BA21DC3003797AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E786EE8A2BA2208D003797AD /* lottie-animation.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "lottie-animation.json"; sourceTree = "<group>"; };
+		E786EE8C2BA22C93003797AD /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		E786EE8F2BA23040003797AD /* View + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View + Extension.swift"; sourceTree = "<group>"; };
+		E786EE912BA235BB003797AD /* MainViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewCell.swift; sourceTree = "<group>"; };
+		E786EE922BA235BB003797AD /* MainViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainViewCell.xib; sourceTree = "<group>"; };
+		E786EE982BA23873003797AD /* SFPRODISPLAYHEAVYITALIC.OTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = SFPRODISPLAYHEAVYITALIC.OTF; sourceTree = "<group>"; };
+		E786EE992BA23873003797AD /* SFPRODISPLAYLIGHTITALIC.OTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = SFPRODISPLAYLIGHTITALIC.OTF; sourceTree = "<group>"; };
+		E786EE9A2BA23873003797AD /* SFPRODISPLAYBLACKITALIC.OTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = SFPRODISPLAYBLACKITALIC.OTF; sourceTree = "<group>"; };
+		E786EE9B2BA23873003797AD /* SFPRODISPLAYREGULAR.OTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = SFPRODISPLAYREGULAR.OTF; sourceTree = "<group>"; };
+		E786EE9C2BA23873003797AD /* SFPRODISPLAYTHINITALIC.OTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = SFPRODISPLAYTHINITALIC.OTF; sourceTree = "<group>"; };
+		E786EE9D2BA23873003797AD /* SF-PRO-BOLD.OTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-PRO-BOLD.OTF"; sourceTree = "<group>"; };
+		E786EE9E2BA23873003797AD /* SFPRODISPLAYMEDIUM.OTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = SFPRODISPLAYMEDIUM.OTF; sourceTree = "<group>"; };
+		E786EE9F2BA23873003797AD /* SFPRODISPLAYULTRALIGHTITALIC.OTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = SFPRODISPLAYULTRALIGHTITALIC.OTF; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E786EE892BA22012003797AD /* Lottie in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,16 +86,45 @@
 		E786EE6F2BA21DC1003797AD /* NasaPhoto */ = {
 			isa = PBXGroup;
 			children = (
+				E786EE8E2BA2302F003797AD /* Extensions */,
+				E786EE962BA23873003797AD /* Fonts */,
 				E786EE702BA21DC1003797AD /* AppDelegate.swift */,
 				E786EE722BA21DC1003797AD /* SceneDelegate.swift */,
 				E786EE742BA21DC1003797AD /* ViewController.swift */,
+				E786EE8C2BA22C93003797AD /* MainViewController.swift */,
+				E786EE8A2BA2208D003797AD /* lottie-animation.json */,
 				E786EE762BA21DC1003797AD /* Main.storyboard */,
 				E786EE7C2BA21DC3003797AD /* Assets.xcassets */,
 				E786EE7E2BA21DC3003797AD /* LaunchScreen.storyboard */,
 				E786EE812BA21DC3003797AD /* Info.plist */,
 				E786EE792BA21DC1003797AD /* NasaPhoto.xcdatamodeld */,
+				E786EE912BA235BB003797AD /* MainViewCell.swift */,
+				E786EE922BA235BB003797AD /* MainViewCell.xib */,
 			);
 			path = NasaPhoto;
+			sourceTree = "<group>";
+		};
+		E786EE8E2BA2302F003797AD /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				E786EE8F2BA23040003797AD /* View + Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		E786EE962BA23873003797AD /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				E786EE982BA23873003797AD /* SFPRODISPLAYHEAVYITALIC.OTF */,
+				E786EE992BA23873003797AD /* SFPRODISPLAYLIGHTITALIC.OTF */,
+				E786EE9A2BA23873003797AD /* SFPRODISPLAYBLACKITALIC.OTF */,
+				E786EE9B2BA23873003797AD /* SFPRODISPLAYREGULAR.OTF */,
+				E786EE9C2BA23873003797AD /* SFPRODISPLAYTHINITALIC.OTF */,
+				E786EE9D2BA23873003797AD /* SF-PRO-BOLD.OTF */,
+				E786EE9E2BA23873003797AD /* SFPRODISPLAYMEDIUM.OTF */,
+				E786EE9F2BA23873003797AD /* SFPRODISPLAYULTRALIGHTITALIC.OTF */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -86,6 +143,9 @@
 			dependencies = (
 			);
 			name = NasaPhoto;
+			packageProductDependencies = (
+				E786EE882BA22012003797AD /* Lottie */,
+			);
 			productName = NasaPhoto;
 			productReference = E786EE6D2BA21DC1003797AD /* NasaPhoto.app */;
 			productType = "com.apple.product-type.application";
@@ -114,6 +174,9 @@
 				Base,
 			);
 			mainGroup = E786EE642BA21DC1003797AD;
+			packageReferences = (
+				E786EE872BA22012003797AD /* XCRemoteSwiftPackageReference "lottie-ios" */,
+			);
 			productRefGroup = E786EE6E2BA21DC1003797AD /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -128,9 +191,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E786EEA22BA23873003797AD /* SFPRODISPLAYLIGHTITALIC.OTF in Resources */,
+				E786EEA32BA23873003797AD /* SFPRODISPLAYBLACKITALIC.OTF in Resources */,
+				E786EE8B2BA2208D003797AD /* lottie-animation.json in Resources */,
 				E786EE802BA21DC3003797AD /* LaunchScreen.storyboard in Resources */,
+				E786EEA72BA23873003797AD /* SFPRODISPLAYMEDIUM.OTF in Resources */,
+				E786EEA62BA23873003797AD /* SF-PRO-BOLD.OTF in Resources */,
 				E786EE7D2BA21DC3003797AD /* Assets.xcassets in Resources */,
 				E786EE782BA21DC1003797AD /* Main.storyboard in Resources */,
+				E786EE942BA235BB003797AD /* MainViewCell.xib in Resources */,
+				E786EEA82BA23873003797AD /* SFPRODISPLAYULTRALIGHTITALIC.OTF in Resources */,
+				E786EEA42BA23873003797AD /* SFPRODISPLAYREGULAR.OTF in Resources */,
+				E786EEA12BA23873003797AD /* SFPRODISPLAYHEAVYITALIC.OTF in Resources */,
+				E786EEA52BA23873003797AD /* SFPRODISPLAYTHINITALIC.OTF in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,9 +214,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E786EE8D2BA22C93003797AD /* MainViewController.swift in Sources */,
 				E786EE752BA21DC1003797AD /* ViewController.swift in Sources */,
 				E786EE712BA21DC1003797AD /* AppDelegate.swift in Sources */,
 				E786EE732BA21DC1003797AD /* SceneDelegate.swift in Sources */,
+				E786EE902BA23040003797AD /* View + Extension.swift in Sources */,
+				E786EE932BA235BB003797AD /* MainViewCell.swift in Sources */,
 				E786EE7B2BA21DC1003797AD /* NasaPhoto.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -365,6 +441,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		E786EE872BA22012003797AD /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-ios.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.4.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E786EE882BA22012003797AD /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E786EE872BA22012003797AD /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			productName = Lottie;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		E786EE792BA21DC1003797AD /* NasaPhoto.xcdatamodeld */ = {
