@@ -8,6 +8,8 @@
 import UIKit
 
 class MainViewCell: UITableViewCell {
+    
+    static var id: String = "MainViewCell.ID"
 
     override func awakeFromNib() {
         super.awakeFromNib()

@@ -21,20 +21,20 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleAspectFill" translatesAutoresizingMaskIntoConstraints="NO" id="EB6-le-nzb">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="app.icon" translatesAutoresizingMaskIntoConstraints="NO" id="Y82-Kc-rj3">
+                                <rect key="frame" x="145" y="199.99999999999997" width="122.66666666666669" height="122.66666666666666"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="Y82-Kc-rj3" secondAttribute="height" multiplier="1:1" id="paa-Zc-AiC"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="allSize" value="YES"/>
+                                </userDefinedRuntimeAttributes>
+                            </imageView>
+                            <view clipsSubviews="YES" contentMode="scaleAspectFill" translatesAutoresizingMaskIntoConstraints="NO" id="EB6-le-nzb">
                                 <rect key="frame" x="135" y="364.66666666666669" width="123" height="123"/>
-                                <subviews>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="app.icon" translatesAutoresizingMaskIntoConstraints="NO" id="Y82-Kc-rj3">
-                                        <rect key="frame" x="0.0" y="0.0" width="123" height="123"/>
-                                    </imageView>
-                                </subviews>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <constraints>
-                                    <constraint firstAttribute="trailing" secondItem="Y82-Kc-rj3" secondAttribute="trailing" id="3hL-ho-Z2j"/>
-                                    <constraint firstItem="Y82-Kc-rj3" firstAttribute="top" secondItem="EB6-le-nzb" secondAttribute="top" id="P4u-4R-NUh"/>
-                                    <constraint firstAttribute="bottom" secondItem="Y82-Kc-rj3" secondAttribute="bottom" id="TXT-wL-DFa"/>
                                     <constraint firstAttribute="width" constant="123" id="flS-Qe-mjc"/>
-                                    <constraint firstItem="Y82-Kc-rj3" firstAttribute="leading" secondItem="EB6-le-nzb" secondAttribute="leading" id="oyA-Bq-EmL"/>
                                     <constraint firstAttribute="height" constant="123" id="tSt-Rg-u1L"/>
                                 </constraints>
                             </view>
@@ -50,10 +50,13 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="EB6-le-nzb" firstAttribute="top" secondItem="Y82-Kc-rj3" secondAttribute="bottom" constant="41.670000000000002" id="1g8-pw-dAq"/>
                             <constraint firstAttribute="bottom" secondItem="m7s-AX-vwT" secondAttribute="bottom" constant="100" id="3Cc-DX-8j2"/>
                             <constraint firstItem="EB6-le-nzb" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="CRZ-xU-EaP"/>
                             <constraint firstItem="m7s-AX-vwT" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Csh-U8-jps"/>
+                            <constraint firstItem="Y82-Kc-rj3" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="145" id="Orw-td-zzR"/>
                             <constraint firstItem="EB6-le-nzb" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="UzT-Ye-yce"/>
+                            <constraint firstItem="Y82-Kc-rj3" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="141" id="qQU-oj-7NQ"/>
                         </constraints>
                     </view>
                     <connections>
