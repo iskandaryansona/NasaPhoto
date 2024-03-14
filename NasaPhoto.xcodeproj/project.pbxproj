@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E70A76012BA2FDB2001980CB /* NasaAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = E70A76002BA2FDB2001980CB /* NasaAPI.swift */; };
+		E70A76042BA30112001980CB /* RoversModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E70A76032BA30112001980CB /* RoversModel.swift */; };
+		E70A76072BA32BA5001980CB /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = E70A76062BA32BA5001980CB /* Kingfisher */; };
+		E70A760E2BA386C3001980CB /* Extension + UIFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = E70A760D2BA386C3001980CB /* Extension + UIFont.swift */; };
+		E70A76122BA38F80001980CB /* SF-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E70A76102BA38CF8001980CB /* SF-Bold.ttf */; };
+		E70A76142BA39E16001980CB /* FullScreenImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E70A76132BA39E16001980CB /* FullScreenImageViewController.swift */; };
 		E786EE712BA21DC1003797AD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E786EE702BA21DC1003797AD /* AppDelegate.swift */; };
 		E786EE732BA21DC1003797AD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E786EE722BA21DC1003797AD /* SceneDelegate.swift */; };
 		E786EE752BA21DC1003797AD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E786EE742BA21DC1003797AD /* ViewController.swift */; };
@@ -20,17 +26,14 @@
 		E786EE902BA23040003797AD /* View + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E786EE8F2BA23040003797AD /* View + Extension.swift */; };
 		E786EE932BA235BB003797AD /* MainViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E786EE912BA235BB003797AD /* MainViewCell.swift */; };
 		E786EE942BA235BB003797AD /* MainViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E786EE922BA235BB003797AD /* MainViewCell.xib */; };
-		E786EEA12BA23873003797AD /* SFPRODISPLAYHEAVYITALIC.OTF in Resources */ = {isa = PBXBuildFile; fileRef = E786EE982BA23873003797AD /* SFPRODISPLAYHEAVYITALIC.OTF */; };
-		E786EEA22BA23873003797AD /* SFPRODISPLAYLIGHTITALIC.OTF in Resources */ = {isa = PBXBuildFile; fileRef = E786EE992BA23873003797AD /* SFPRODISPLAYLIGHTITALIC.OTF */; };
-		E786EEA32BA23873003797AD /* SFPRODISPLAYBLACKITALIC.OTF in Resources */ = {isa = PBXBuildFile; fileRef = E786EE9A2BA23873003797AD /* SFPRODISPLAYBLACKITALIC.OTF */; };
-		E786EEA42BA23873003797AD /* SFPRODISPLAYREGULAR.OTF in Resources */ = {isa = PBXBuildFile; fileRef = E786EE9B2BA23873003797AD /* SFPRODISPLAYREGULAR.OTF */; };
-		E786EEA52BA23873003797AD /* SFPRODISPLAYTHINITALIC.OTF in Resources */ = {isa = PBXBuildFile; fileRef = E786EE9C2BA23873003797AD /* SFPRODISPLAYTHINITALIC.OTF */; };
-		E786EEA62BA23873003797AD /* SF-PRO-BOLD.OTF in Resources */ = {isa = PBXBuildFile; fileRef = E786EE9D2BA23873003797AD /* SF-PRO-BOLD.OTF */; };
-		E786EEA72BA23873003797AD /* SFPRODISPLAYMEDIUM.OTF in Resources */ = {isa = PBXBuildFile; fileRef = E786EE9E2BA23873003797AD /* SFPRODISPLAYMEDIUM.OTF */; };
-		E786EEA82BA23873003797AD /* SFPRODISPLAYULTRALIGHTITALIC.OTF in Resources */ = {isa = PBXBuildFile; fileRef = E786EE9F2BA23873003797AD /* SFPRODISPLAYULTRALIGHTITALIC.OTF */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E70A76002BA2FDB2001980CB /* NasaAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NasaAPI.swift; sourceTree = "<group>"; };
+		E70A76032BA30112001980CB /* RoversModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoversModel.swift; sourceTree = "<group>"; };
+		E70A760D2BA386C3001980CB /* Extension + UIFont.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Extension + UIFont.swift"; sourceTree = "<group>"; };
+		E70A76102BA38CF8001980CB /* SF-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Bold.ttf"; sourceTree = "<group>"; };
+		E70A76132BA39E16001980CB /* FullScreenImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullScreenImageViewController.swift; sourceTree = "<group>"; };
 		E786EE6D2BA21DC1003797AD /* NasaPhoto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NasaPhoto.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E786EE702BA21DC1003797AD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E786EE722BA21DC1003797AD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -45,14 +48,6 @@
 		E786EE8F2BA23040003797AD /* View + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View + Extension.swift"; sourceTree = "<group>"; };
 		E786EE912BA235BB003797AD /* MainViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewCell.swift; sourceTree = "<group>"; };
 		E786EE922BA235BB003797AD /* MainViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainViewCell.xib; sourceTree = "<group>"; };
-		E786EE982BA23873003797AD /* SFPRODISPLAYHEAVYITALIC.OTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = SFPRODISPLAYHEAVYITALIC.OTF; sourceTree = "<group>"; };
-		E786EE992BA23873003797AD /* SFPRODISPLAYLIGHTITALIC.OTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = SFPRODISPLAYLIGHTITALIC.OTF; sourceTree = "<group>"; };
-		E786EE9A2BA23873003797AD /* SFPRODISPLAYBLACKITALIC.OTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = SFPRODISPLAYBLACKITALIC.OTF; sourceTree = "<group>"; };
-		E786EE9B2BA23873003797AD /* SFPRODISPLAYREGULAR.OTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = SFPRODISPLAYREGULAR.OTF; sourceTree = "<group>"; };
-		E786EE9C2BA23873003797AD /* SFPRODISPLAYTHINITALIC.OTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = SFPRODISPLAYTHINITALIC.OTF; sourceTree = "<group>"; };
-		E786EE9D2BA23873003797AD /* SF-PRO-BOLD.OTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-PRO-BOLD.OTF"; sourceTree = "<group>"; };
-		E786EE9E2BA23873003797AD /* SFPRODISPLAYMEDIUM.OTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = SFPRODISPLAYMEDIUM.OTF; sourceTree = "<group>"; };
-		E786EE9F2BA23873003797AD /* SFPRODISPLAYULTRALIGHTITALIC.OTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = SFPRODISPLAYULTRALIGHTITALIC.OTF; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E70A76072BA32BA5001980CB /* Kingfisher in Frameworks */,
 				E786EE892BA22012003797AD /* Lottie in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -67,6 +63,72 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E70A75FB2BA2FC81001980CB /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				E786EE7E2BA21DC3003797AD /* LaunchScreen.storyboard */,
+				E786EE722BA21DC1003797AD /* SceneDelegate.swift */,
+				E786EE702BA21DC1003797AD /* AppDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		E70A75FC2BA2FC9F001980CB /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E70A760F2BA38CC7001980CB /* UIFonts */,
+				E786EE7C2BA21DC3003797AD /* Assets.xcassets */,
+				E786EE8A2BA2208D003797AD /* lottie-animation.json */,
+				E786EE792BA21DC1003797AD /* NasaPhoto.xcdatamodeld */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		E70A75FD2BA2FCCD001980CB /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				E786EE912BA235BB003797AD /* MainViewCell.swift */,
+				E786EE922BA235BB003797AD /* MainViewCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		E70A75FE2BA2FCEA001980CB /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				E786EE762BA21DC1003797AD /* Main.storyboard */,
+				E786EE742BA21DC1003797AD /* ViewController.swift */,
+				E786EE8C2BA22C93003797AD /* MainViewController.swift */,
+				E70A76132BA39E16001980CB /* FullScreenImageViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		E70A75FF2BA2FDA5001980CB /* API */ = {
+			isa = PBXGroup;
+			children = (
+				E70A76002BA2FDB2001980CB /* NasaAPI.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		E70A76022BA30106001980CB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E70A76032BA30112001980CB /* RoversModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E70A760F2BA38CC7001980CB /* UIFonts */ = {
+			isa = PBXGroup;
+			children = (
+				E70A76102BA38CF8001980CB /* SF-Bold.ttf */,
+				E70A760D2BA386C3001980CB /* Extension + UIFont.swift */,
+			);
+			path = UIFonts;
+			sourceTree = "<group>";
+		};
 		E786EE642BA21DC1003797AD = {
 			isa = PBXGroup;
 			children = (
@@ -86,20 +148,14 @@
 		E786EE6F2BA21DC1003797AD /* NasaPhoto */ = {
 			isa = PBXGroup;
 			children = (
-				E786EE8E2BA2302F003797AD /* Extensions */,
-				E786EE962BA23873003797AD /* Fonts */,
-				E786EE702BA21DC1003797AD /* AppDelegate.swift */,
-				E786EE722BA21DC1003797AD /* SceneDelegate.swift */,
-				E786EE742BA21DC1003797AD /* ViewController.swift */,
-				E786EE8C2BA22C93003797AD /* MainViewController.swift */,
-				E786EE8A2BA2208D003797AD /* lottie-animation.json */,
-				E786EE762BA21DC1003797AD /* Main.storyboard */,
-				E786EE7C2BA21DC3003797AD /* Assets.xcassets */,
-				E786EE7E2BA21DC3003797AD /* LaunchScreen.storyboard */,
+				E70A76022BA30106001980CB /* Model */,
+				E70A75FF2BA2FDA5001980CB /* API */,
+				E70A75FB2BA2FC81001980CB /* Application */,
+				E70A75FE2BA2FCEA001980CB /* Controllers */,
+				E70A75FD2BA2FCCD001980CB /* Cell */,
 				E786EE812BA21DC3003797AD /* Info.plist */,
-				E786EE792BA21DC1003797AD /* NasaPhoto.xcdatamodeld */,
-				E786EE912BA235BB003797AD /* MainViewCell.swift */,
-				E786EE922BA235BB003797AD /* MainViewCell.xib */,
+				E70A75FC2BA2FC9F001980CB /* Resources */,
+				E786EE8E2BA2302F003797AD /* Extensions */,
 			);
 			path = NasaPhoto;
 			sourceTree = "<group>";
@@ -110,21 +166,6 @@
 				E786EE8F2BA23040003797AD /* View + Extension.swift */,
 			);
 			path = Extensions;
-			sourceTree = "<group>";
-		};
-		E786EE962BA23873003797AD /* Fonts */ = {
-			isa = PBXGroup;
-			children = (
-				E786EE982BA23873003797AD /* SFPRODISPLAYHEAVYITALIC.OTF */,
-				E786EE992BA23873003797AD /* SFPRODISPLAYLIGHTITALIC.OTF */,
-				E786EE9A2BA23873003797AD /* SFPRODISPLAYBLACKITALIC.OTF */,
-				E786EE9B2BA23873003797AD /* SFPRODISPLAYREGULAR.OTF */,
-				E786EE9C2BA23873003797AD /* SFPRODISPLAYTHINITALIC.OTF */,
-				E786EE9D2BA23873003797AD /* SF-PRO-BOLD.OTF */,
-				E786EE9E2BA23873003797AD /* SFPRODISPLAYMEDIUM.OTF */,
-				E786EE9F2BA23873003797AD /* SFPRODISPLAYULTRALIGHTITALIC.OTF */,
-			);
-			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -145,6 +186,7 @@
 			name = NasaPhoto;
 			packageProductDependencies = (
 				E786EE882BA22012003797AD /* Lottie */,
+				E70A76062BA32BA5001980CB /* Kingfisher */,
 			);
 			productName = NasaPhoto;
 			productReference = E786EE6D2BA21DC1003797AD /* NasaPhoto.app */;
@@ -176,6 +218,7 @@
 			mainGroup = E786EE642BA21DC1003797AD;
 			packageReferences = (
 				E786EE872BA22012003797AD /* XCRemoteSwiftPackageReference "lottie-ios" */,
+				E70A76052BA32BA5001980CB /* XCRemoteSwiftPackageReference "Kingfisher" */,
 			);
 			productRefGroup = E786EE6E2BA21DC1003797AD /* Products */;
 			projectDirPath = "";
@@ -191,19 +234,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E786EEA22BA23873003797AD /* SFPRODISPLAYLIGHTITALIC.OTF in Resources */,
-				E786EEA32BA23873003797AD /* SFPRODISPLAYBLACKITALIC.OTF in Resources */,
+				E70A76122BA38F80001980CB /* SF-Bold.ttf in Resources */,
 				E786EE8B2BA2208D003797AD /* lottie-animation.json in Resources */,
 				E786EE802BA21DC3003797AD /* LaunchScreen.storyboard in Resources */,
-				E786EEA72BA23873003797AD /* SFPRODISPLAYMEDIUM.OTF in Resources */,
-				E786EEA62BA23873003797AD /* SF-PRO-BOLD.OTF in Resources */,
 				E786EE7D2BA21DC3003797AD /* Assets.xcassets in Resources */,
 				E786EE782BA21DC1003797AD /* Main.storyboard in Resources */,
 				E786EE942BA235BB003797AD /* MainViewCell.xib in Resources */,
-				E786EEA82BA23873003797AD /* SFPRODISPLAYULTRALIGHTITALIC.OTF in Resources */,
-				E786EEA42BA23873003797AD /* SFPRODISPLAYREGULAR.OTF in Resources */,
-				E786EEA12BA23873003797AD /* SFPRODISPLAYHEAVYITALIC.OTF in Resources */,
-				E786EEA52BA23873003797AD /* SFPRODISPLAYTHINITALIC.OTF in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,7 +255,11 @@
 				E786EE712BA21DC1003797AD /* AppDelegate.swift in Sources */,
 				E786EE732BA21DC1003797AD /* SceneDelegate.swift in Sources */,
 				E786EE902BA23040003797AD /* View + Extension.swift in Sources */,
+				E70A76012BA2FDB2001980CB /* NasaAPI.swift in Sources */,
+				E70A76042BA30112001980CB /* RoversModel.swift in Sources */,
 				E786EE932BA235BB003797AD /* MainViewCell.swift in Sources */,
+				E70A76142BA39E16001980CB /* FullScreenImageViewController.swift in Sources */,
+				E70A760E2BA386C3001980CB /* Extension + UIFont.swift in Sources */,
 				E786EE7B2BA21DC1003797AD /* NasaPhoto.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -372,6 +412,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3HT6K482Y6;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = NasaPhoto/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -399,6 +440,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3HT6K482Y6;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = NasaPhoto/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -443,6 +485,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		E70A76052BA32BA5001980CB /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.11.0;
+			};
+		};
 		E786EE872BA22012003797AD /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/airbnb/lottie-ios.git";
@@ -454,6 +504,11 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		E70A76062BA32BA5001980CB /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E70A76052BA32BA5001980CB /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
 		E786EE882BA22012003797AD /* Lottie */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = E786EE872BA22012003797AD /* XCRemoteSwiftPackageReference "lottie-ios" */;

@@ -33,21 +33,12 @@
                                     <constraint firstAttribute="width" constant="123" id="wLc-Vt-luj"/>
                                 </constraints>
                             </view>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="app.icon" translatesAutoresizingMaskIntoConstraints="NO" id="6ZF-sB-AQ9">
-                                <rect key="frame" x="135" y="595.66666666666663" width="123" height="123"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="123" id="uzW-XR-jj7"/>
-                                    <constraint firstAttribute="height" constant="123" id="yGc-Xn-XY7"/>
-                                </constraints>
-                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="6ZF-sB-AQ9" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="OLq-Z6-UfO"/>
                             <constraint firstItem="vUd-Be-XUI" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="TSX-PQ-ess"/>
                             <constraint firstItem="vUd-Be-XUI" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="ctl-gc-85p"/>
-                            <constraint firstItem="6ZF-sB-AQ9" firstAttribute="top" secondItem="vUd-Be-XUI" secondAttribute="bottom" constant="108.33" id="iKu-zP-KIc"/>
                         </constraints>
                     </view>
                 </viewController>
