@@ -17,20 +17,20 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="redraw" translatesAutoresizingMaskIntoConstraints="NO" id="vUd-Be-XUI">
-                                <rect key="frame" x="135" y="364.66666666666669" width="123" height="123"/>
+                                <rect key="frame" x="114" y="343.66666666666669" width="165" height="165"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="app.icon" translatesAutoresizingMaskIntoConstraints="NO" id="d3a-ba-k9b">
-                                        <rect key="frame" x="0.0" y="0.0" width="123" height="123"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="165" height="165"/>
                                     </imageView>
                                 </subviews>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="123" id="4Bi-jJ-OZW"/>
+                                    <constraint firstAttribute="height" constant="165" id="4Bi-jJ-OZW"/>
                                     <constraint firstAttribute="trailing" secondItem="d3a-ba-k9b" secondAttribute="trailing" id="HZs-8y-5ut"/>
                                     <constraint firstAttribute="bottom" secondItem="d3a-ba-k9b" secondAttribute="bottom" id="NP8-TF-wu6"/>
                                     <constraint firstItem="d3a-ba-k9b" firstAttribute="top" secondItem="vUd-Be-XUI" secondAttribute="top" id="ggL-bW-OkO"/>
                                     <constraint firstItem="d3a-ba-k9b" firstAttribute="leading" secondItem="vUd-Be-XUI" secondAttribute="leading" id="spj-i3-GQ6"/>
-                                    <constraint firstAttribute="width" constant="123" id="wLc-Vt-luj"/>
+                                    <constraint firstAttribute="width" constant="165" id="wLc-Vt-luj"/>
                                 </constraints>
                             </view>
                         </subviews>
@@ -48,7 +48,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="app.icon" width="932" height="932"/>
+        <image name="app.icon" width="233" height="233"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
