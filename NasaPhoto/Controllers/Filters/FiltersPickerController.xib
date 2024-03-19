@@ -8,13 +8,15 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <customFonts key="customFonts">
-        <array key="SF-Bold.ttf">
+        <array key="SFPRODISPLAYBOLD.OTF">
             <string>SFProDisplay-Bold</string>
         </array>
     </customFonts>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="FiltersPickerController" customModule="NasaPhoto" customModuleProvider="target">
             <connections>
+                <outlet property="dataPicker" destination="HqI-Er-FqL" id="LiQ-Om-HZz"/>
+                <outlet property="titleLabel" destination="FLX-kM-Axb" id="COP-al-Es9"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -71,13 +73,13 @@
                             </constraints>
                         </view>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Camera" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FLX-kM-Axb">
-                            <rect key="frame" x="157.33333333333334" y="33.666666666666629" width="78.666666666666657" height="27"/>
+                            <rect key="frame" x="157.33333333333334" y="34.333333333333371" width="78.666666666666657" height="25.666666666666671"/>
                             <fontDescription key="fontDescription" name="SFProDisplay-Bold" family="SF Pro Display" pointSize="22"/>
                             <nil key="textColor"/>
                             <nil key="highlightedColor"/>
                         </label>
                         <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HqI-Er-FqL">
-                            <rect key="frame" x="0.0" y="84" width="393" height="216"/>
+                            <rect key="frame" x="0.0" y="79" width="393" height="221"/>
                             <connections>
                                 <outlet property="dataSource" destination="-1" id="e0i-Qo-pN4"/>
                                 <outlet property="delegate" destination="-1" id="Fxp-LP-Sud"/>
@@ -93,7 +95,7 @@
                         <constraint firstAttribute="height" constant="310" id="JPU-y5-eVw"/>
                         <constraint firstItem="FLX-kM-Axb" firstAttribute="centerY" secondItem="61X-yT-Y50" secondAttribute="centerY" id="SbM-B4-58N"/>
                         <constraint firstAttribute="trailing" secondItem="lwl-GV-9ys" secondAttribute="trailing" constant="15" id="T3h-8J-Pum"/>
-                        <constraint firstItem="HqI-Er-FqL" firstAttribute="top" secondItem="61X-yT-Y50" secondAttribute="bottom" constant="15" id="Typ-AQ-zjR"/>
+                        <constraint firstItem="HqI-Er-FqL" firstAttribute="top" secondItem="61X-yT-Y50" secondAttribute="bottom" constant="10" id="Typ-AQ-zjR"/>
                         <constraint firstItem="61X-yT-Y50" firstAttribute="leading" secondItem="IcQ-b1-oQS" secondAttribute="leading" constant="15" id="YZO-NB-GnE"/>
                         <constraint firstAttribute="trailing" secondItem="HqI-Er-FqL" secondAttribute="trailing" id="Yf2-ww-Mrg"/>
                         <constraint firstAttribute="bottom" secondItem="HqI-Er-FqL" secondAttribute="bottom" constant="10" id="iiE-9Q-9cZ"/>
