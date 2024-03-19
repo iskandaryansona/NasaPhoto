@@ -7,17 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E70442102BA889DE00998D4E /* PhotoInfo+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = E704420A2BA889DE00998D4E /* PhotoInfo+CoreDataProperties.swift */; };
+		E70442122BA889DE00998D4E /* CameraInfo+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = E704420C2BA889DE00998D4E /* CameraInfo+CoreDataProperties.swift */; };
+		E70442142BA889DE00998D4E /* RoverInfo+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = E704420E2BA889DE00998D4E /* RoverInfo+CoreDataProperties.swift */; };
+		E70442162BA88B4800998D4E /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E70442152BA88B4800998D4E /* CoreDataManager.swift */; };
+		E70442182BA8B4D700998D4E /* LocalData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E70442172BA8B4D700998D4E /* LocalData.swift */; };
+		E704421A2BA8C52200998D4E /* AppColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = E70442192BA8C52200998D4E /* AppColors.swift */; };
 		E70A76012BA2FDB2001980CB /* NasaAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = E70A76002BA2FDB2001980CB /* NasaAPI.swift */; };
 		E70A76042BA30112001980CB /* RoversModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E70A76032BA30112001980CB /* RoversModel.swift */; };
 		E70A76072BA32BA5001980CB /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = E70A76062BA32BA5001980CB /* Kingfisher */; };
 		E70A760E2BA386C3001980CB /* Extension + UIFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = E70A760D2BA386C3001980CB /* Extension + UIFont.swift */; };
-		E70A76122BA38F80001980CB /* SF-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E70A76102BA38CF8001980CB /* SF-Bold.ttf */; };
 		E70A76142BA39E16001980CB /* FullScreenImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E70A76132BA39E16001980CB /* FullScreenImageViewController.swift */; };
+		E781C0742BAA245C008800BD /* String + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E781C0732BAA245C008800BD /* String + Extension.swift */; };
 		E786EE712BA21DC1003797AD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E786EE702BA21DC1003797AD /* AppDelegate.swift */; };
 		E786EE732BA21DC1003797AD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E786EE722BA21DC1003797AD /* SceneDelegate.swift */; };
 		E786EE752BA21DC1003797AD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E786EE742BA21DC1003797AD /* ViewController.swift */; };
 		E786EE782BA21DC1003797AD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E786EE762BA21DC1003797AD /* Main.storyboard */; };
-		E786EE7B2BA21DC1003797AD /* NasaPhoto.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E786EE792BA21DC1003797AD /* NasaPhoto.xcdatamodeld */; };
 		E786EE7D2BA21DC3003797AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E786EE7C2BA21DC3003797AD /* Assets.xcassets */; };
 		E786EE802BA21DC3003797AD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E786EE7E2BA21DC3003797AD /* LaunchScreen.storyboard */; };
 		E786EE892BA22012003797AD /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = E786EE882BA22012003797AD /* Lottie */; };
@@ -26,20 +31,44 @@
 		E786EE902BA23040003797AD /* View + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E786EE8F2BA23040003797AD /* View + Extension.swift */; };
 		E786EE932BA235BB003797AD /* MainViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E786EE912BA235BB003797AD /* MainViewCell.swift */; };
 		E786EE942BA235BB003797AD /* MainViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E786EE922BA235BB003797AD /* MainViewCell.xib */; };
+		E79754CF2BA8DC1200188E55 /* FilterInfo + CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79754CE2BA8DC1200188E55 /* FilterInfo + CoreDataProperties.swift */; };
+		E79754D42BA8E85200188E55 /* NasaPhoto.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E79754D22BA8E85200188E55 /* NasaPhoto.xcdatamodeld */; };
+		E79754DF2BA8F48100188E55 /* SFPRODISPLAYSEMIBOLDITALIC.OTF in Resources */ = {isa = PBXBuildFile; fileRef = E79754D62BA8F48100188E55 /* SFPRODISPLAYSEMIBOLDITALIC.OTF */; };
+		E79754E02BA8F48100188E55 /* SFPRODISPLAYHEAVYITALIC.OTF in Resources */ = {isa = PBXBuildFile; fileRef = E79754D72BA8F48100188E55 /* SFPRODISPLAYHEAVYITALIC.OTF */; };
+		E79754E12BA8F48100188E55 /* SFPRODISPLAYLIGHTITALIC.OTF in Resources */ = {isa = PBXBuildFile; fileRef = E79754D82BA8F48100188E55 /* SFPRODISPLAYLIGHTITALIC.OTF */; };
+		E79754E22BA8F48100188E55 /* SFPRODISPLAYBLACKITALIC.OTF in Resources */ = {isa = PBXBuildFile; fileRef = E79754D92BA8F48100188E55 /* SFPRODISPLAYBLACKITALIC.OTF */; };
+		E79754E32BA8F48100188E55 /* SFPRODISPLAYREGULAR.OTF in Resources */ = {isa = PBXBuildFile; fileRef = E79754DA2BA8F48100188E55 /* SFPRODISPLAYREGULAR.OTF */; };
+		E79754E42BA8F48100188E55 /* SFPRODISPLAYTHINITALIC.OTF in Resources */ = {isa = PBXBuildFile; fileRef = E79754DB2BA8F48100188E55 /* SFPRODISPLAYTHINITALIC.OTF */; };
+		E79754E52BA8F48100188E55 /* SFPRODISPLAYBOLD.OTF in Resources */ = {isa = PBXBuildFile; fileRef = E79754DC2BA8F48100188E55 /* SFPRODISPLAYBOLD.OTF */; };
+		E79754E62BA8F48100188E55 /* SFPRODISPLAYMEDIUM.OTF in Resources */ = {isa = PBXBuildFile; fileRef = E79754DD2BA8F48100188E55 /* SFPRODISPLAYMEDIUM.OTF */; };
+		E79754E72BA8F48100188E55 /* SFPRODISPLAYULTRALIGHTITALIC.OTF in Resources */ = {isa = PBXBuildFile; fileRef = E79754DE2BA8F48100188E55 /* SFPRODISPLAYULTRALIGHTITALIC.OTF */; };
+		E7B224832BA463CB0062EF5F /* FiltersPickerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B224812BA463CB0062EF5F /* FiltersPickerController.swift */; };
+		E7B224842BA463CB0062EF5F /* FiltersPickerController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E7B224822BA463CB0062EF5F /* FiltersPickerController.xib */; };
+		E7B224862BA4F1710062EF5F /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B224852BA4F1710062EF5F /* HistoryViewController.swift */; };
+		E7C2A3AB2BA3B0D200ED5776 /* DateFilterController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7C2A3A92BA3B0D200ED5776 /* DateFilterController.swift */; };
+		E7C2A3AC2BA3B0D200ED5776 /* DateFilterController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E7C2A3AA2BA3B0D200ED5776 /* DateFilterController.xib */; };
+		E7DFD07A2BA59D9F00C9CC51 /* HistoryViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7DFD0782BA59D9F00C9CC51 /* HistoryViewCell.swift */; };
+		E7DFD07B2BA59D9F00C9CC51 /* HistoryViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E7DFD0792BA59D9F00C9CC51 /* HistoryViewCell.xib */; };
+		E7DFD07D2BA5AA5600C9CC51 /* FilterModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7DFD07C2BA5AA5600C9CC51 /* FilterModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E704420A2BA889DE00998D4E /* PhotoInfo+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PhotoInfo+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		E704420C2BA889DE00998D4E /* CameraInfo+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CameraInfo+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		E704420E2BA889DE00998D4E /* RoverInfo+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RoverInfo+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		E70442152BA88B4800998D4E /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		E70442172BA8B4D700998D4E /* LocalData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalData.swift; sourceTree = "<group>"; };
+		E70442192BA8C52200998D4E /* AppColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppColors.swift; sourceTree = "<group>"; };
 		E70A76002BA2FDB2001980CB /* NasaAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NasaAPI.swift; sourceTree = "<group>"; };
 		E70A76032BA30112001980CB /* RoversModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoversModel.swift; sourceTree = "<group>"; };
 		E70A760D2BA386C3001980CB /* Extension + UIFont.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Extension + UIFont.swift"; sourceTree = "<group>"; };
-		E70A76102BA38CF8001980CB /* SF-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Bold.ttf"; sourceTree = "<group>"; };
 		E70A76132BA39E16001980CB /* FullScreenImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullScreenImageViewController.swift; sourceTree = "<group>"; };
+		E781C0732BAA245C008800BD /* String + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String + Extension.swift"; sourceTree = "<group>"; };
 		E786EE6D2BA21DC1003797AD /* NasaPhoto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NasaPhoto.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E786EE702BA21DC1003797AD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E786EE722BA21DC1003797AD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		E786EE742BA21DC1003797AD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E786EE772BA21DC1003797AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		E786EE7A2BA21DC1003797AD /* NasaPhoto.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NasaPhoto.xcdatamodel; sourceTree = "<group>"; };
 		E786EE7C2BA21DC3003797AD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E786EE7F2BA21DC3003797AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E786EE812BA21DC3003797AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -48,6 +77,25 @@
 		E786EE8F2BA23040003797AD /* View + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View + Extension.swift"; sourceTree = "<group>"; };
 		E786EE912BA235BB003797AD /* MainViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewCell.swift; sourceTree = "<group>"; };
 		E786EE922BA235BB003797AD /* MainViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainViewCell.xib; sourceTree = "<group>"; };
+		E79754CE2BA8DC1200188E55 /* FilterInfo + CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FilterInfo + CoreDataProperties.swift"; sourceTree = "<group>"; };
+		E79754D32BA8E85200188E55 /* NasaPhoto.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NasaPhoto.xcdatamodel; sourceTree = "<group>"; };
+		E79754D62BA8F48100188E55 /* SFPRODISPLAYSEMIBOLDITALIC.OTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = SFPRODISPLAYSEMIBOLDITALIC.OTF; sourceTree = "<group>"; };
+		E79754D72BA8F48100188E55 /* SFPRODISPLAYHEAVYITALIC.OTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = SFPRODISPLAYHEAVYITALIC.OTF; sourceTree = "<group>"; };
+		E79754D82BA8F48100188E55 /* SFPRODISPLAYLIGHTITALIC.OTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = SFPRODISPLAYLIGHTITALIC.OTF; sourceTree = "<group>"; };
+		E79754D92BA8F48100188E55 /* SFPRODISPLAYBLACKITALIC.OTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = SFPRODISPLAYBLACKITALIC.OTF; sourceTree = "<group>"; };
+		E79754DA2BA8F48100188E55 /* SFPRODISPLAYREGULAR.OTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = SFPRODISPLAYREGULAR.OTF; sourceTree = "<group>"; };
+		E79754DB2BA8F48100188E55 /* SFPRODISPLAYTHINITALIC.OTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = SFPRODISPLAYTHINITALIC.OTF; sourceTree = "<group>"; };
+		E79754DC2BA8F48100188E55 /* SFPRODISPLAYBOLD.OTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = SFPRODISPLAYBOLD.OTF; sourceTree = "<group>"; };
+		E79754DD2BA8F48100188E55 /* SFPRODISPLAYMEDIUM.OTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = SFPRODISPLAYMEDIUM.OTF; sourceTree = "<group>"; };
+		E79754DE2BA8F48100188E55 /* SFPRODISPLAYULTRALIGHTITALIC.OTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = SFPRODISPLAYULTRALIGHTITALIC.OTF; sourceTree = "<group>"; };
+		E7B224812BA463CB0062EF5F /* FiltersPickerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FiltersPickerController.swift; sourceTree = "<group>"; };
+		E7B224822BA463CB0062EF5F /* FiltersPickerController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FiltersPickerController.xib; sourceTree = "<group>"; };
+		E7B224852BA4F1710062EF5F /* HistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
+		E7C2A3A92BA3B0D200ED5776 /* DateFilterController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateFilterController.swift; sourceTree = "<group>"; };
+		E7C2A3AA2BA3B0D200ED5776 /* DateFilterController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DateFilterController.xib; sourceTree = "<group>"; };
+		E7DFD0782BA59D9F00C9CC51 /* HistoryViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewCell.swift; sourceTree = "<group>"; };
+		E7DFD0792BA59D9F00C9CC51 /* HistoryViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HistoryViewCell.xib; sourceTree = "<group>"; };
+		E7DFD07C2BA5AA5600C9CC51 /* FilterModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,7 +127,6 @@
 				E70A760F2BA38CC7001980CB /* UIFonts */,
 				E786EE7C2BA21DC3003797AD /* Assets.xcassets */,
 				E786EE8A2BA2208D003797AD /* lottie-animation.json */,
-				E786EE792BA21DC1003797AD /* NasaPhoto.xcdatamodeld */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -89,6 +136,8 @@
 			children = (
 				E786EE912BA235BB003797AD /* MainViewCell.swift */,
 				E786EE922BA235BB003797AD /* MainViewCell.xib */,
+				E7DFD0782BA59D9F00C9CC51 /* HistoryViewCell.swift */,
+				E7DFD0792BA59D9F00C9CC51 /* HistoryViewCell.xib */,
 			);
 			path = Cell;
 			sourceTree = "<group>";
@@ -96,7 +145,9 @@
 		E70A75FE2BA2FCEA001980CB /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				E7B224802BA45F5F0062EF5F /* Filters */,
 				E786EE762BA21DC1003797AD /* Main.storyboard */,
+				E7B224852BA4F1710062EF5F /* HistoryViewController.swift */,
 				E786EE742BA21DC1003797AD /* ViewController.swift */,
 				E786EE8C2BA22C93003797AD /* MainViewController.swift */,
 				E70A76132BA39E16001980CB /* FullScreenImageViewController.swift */,
@@ -116,6 +167,8 @@
 			isa = PBXGroup;
 			children = (
 				E70A76032BA30112001980CB /* RoversModel.swift */,
+				E7DFD07C2BA5AA5600C9CC51 /* FilterModel.swift */,
+				E70442172BA8B4D700998D4E /* LocalData.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -123,15 +176,28 @@
 		E70A760F2BA38CC7001980CB /* UIFonts */ = {
 			isa = PBXGroup;
 			children = (
-				E70A76102BA38CF8001980CB /* SF-Bold.ttf */,
+				E79754D52BA8F48100188E55 /* sf-pro-display-cufonfonts */,
 				E70A760D2BA386C3001980CB /* Extension + UIFont.swift */,
 			);
 			path = UIFonts;
 			sourceTree = "<group>";
 		};
+		E781C0722BAA21E2008800BD /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				E70442192BA8C52200998D4E /* AppColors.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
 		E786EE642BA21DC1003797AD = {
 			isa = PBXGroup;
 			children = (
+				E79754D22BA8E85200188E55 /* NasaPhoto.xcdatamodeld */,
+				E79754CE2BA8DC1200188E55 /* FilterInfo + CoreDataProperties.swift */,
+				E704420A2BA889DE00998D4E /* PhotoInfo+CoreDataProperties.swift */,
+				E704420C2BA889DE00998D4E /* CameraInfo+CoreDataProperties.swift */,
+				E704420E2BA889DE00998D4E /* RoverInfo+CoreDataProperties.swift */,
 				E786EE6F2BA21DC1003797AD /* NasaPhoto */,
 				E786EE6E2BA21DC1003797AD /* Products */,
 			);
@@ -148,6 +214,7 @@
 		E786EE6F2BA21DC1003797AD /* NasaPhoto */ = {
 			isa = PBXGroup;
 			children = (
+				E781C0722BAA21E2008800BD /* Managers */,
 				E70A76022BA30106001980CB /* Model */,
 				E70A75FF2BA2FDA5001980CB /* API */,
 				E70A75FB2BA2FC81001980CB /* Application */,
@@ -156,6 +223,7 @@
 				E786EE812BA21DC3003797AD /* Info.plist */,
 				E70A75FC2BA2FC9F001980CB /* Resources */,
 				E786EE8E2BA2302F003797AD /* Extensions */,
+				E70442152BA88B4800998D4E /* CoreDataManager.swift */,
 			);
 			path = NasaPhoto;
 			sourceTree = "<group>";
@@ -164,8 +232,36 @@
 			isa = PBXGroup;
 			children = (
 				E786EE8F2BA23040003797AD /* View + Extension.swift */,
+				E781C0732BAA245C008800BD /* String + Extension.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		E79754D52BA8F48100188E55 /* sf-pro-display-cufonfonts */ = {
+			isa = PBXGroup;
+			children = (
+				E79754D62BA8F48100188E55 /* SFPRODISPLAYSEMIBOLDITALIC.OTF */,
+				E79754D72BA8F48100188E55 /* SFPRODISPLAYHEAVYITALIC.OTF */,
+				E79754D82BA8F48100188E55 /* SFPRODISPLAYLIGHTITALIC.OTF */,
+				E79754D92BA8F48100188E55 /* SFPRODISPLAYBLACKITALIC.OTF */,
+				E79754DA2BA8F48100188E55 /* SFPRODISPLAYREGULAR.OTF */,
+				E79754DB2BA8F48100188E55 /* SFPRODISPLAYTHINITALIC.OTF */,
+				E79754DC2BA8F48100188E55 /* SFPRODISPLAYBOLD.OTF */,
+				E79754DD2BA8F48100188E55 /* SFPRODISPLAYMEDIUM.OTF */,
+				E79754DE2BA8F48100188E55 /* SFPRODISPLAYULTRALIGHTITALIC.OTF */,
+			);
+			path = "sf-pro-display-cufonfonts";
+			sourceTree = "<group>";
+		};
+		E7B224802BA45F5F0062EF5F /* Filters */ = {
+			isa = PBXGroup;
+			children = (
+				E7C2A3A92BA3B0D200ED5776 /* DateFilterController.swift */,
+				E7C2A3AA2BA3B0D200ED5776 /* DateFilterController.xib */,
+				E7B224812BA463CB0062EF5F /* FiltersPickerController.swift */,
+				E7B224822BA463CB0062EF5F /* FiltersPickerController.xib */,
+			);
+			path = Filters;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,12 +330,23 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E70A76122BA38F80001980CB /* SF-Bold.ttf in Resources */,
+				E79754E42BA8F48100188E55 /* SFPRODISPLAYTHINITALIC.OTF in Resources */,
+				E7C2A3AC2BA3B0D200ED5776 /* DateFilterController.xib in Resources */,
+				E79754E22BA8F48100188E55 /* SFPRODISPLAYBLACKITALIC.OTF in Resources */,
 				E786EE8B2BA2208D003797AD /* lottie-animation.json in Resources */,
 				E786EE802BA21DC3003797AD /* LaunchScreen.storyboard in Resources */,
 				E786EE7D2BA21DC3003797AD /* Assets.xcassets in Resources */,
 				E786EE782BA21DC1003797AD /* Main.storyboard in Resources */,
+				E79754E02BA8F48100188E55 /* SFPRODISPLAYHEAVYITALIC.OTF in Resources */,
 				E786EE942BA235BB003797AD /* MainViewCell.xib in Resources */,
+				E79754E32BA8F48100188E55 /* SFPRODISPLAYREGULAR.OTF in Resources */,
+				E7B224842BA463CB0062EF5F /* FiltersPickerController.xib in Resources */,
+				E79754DF2BA8F48100188E55 /* SFPRODISPLAYSEMIBOLDITALIC.OTF in Resources */,
+				E79754E12BA8F48100188E55 /* SFPRODISPLAYLIGHTITALIC.OTF in Resources */,
+				E79754E52BA8F48100188E55 /* SFPRODISPLAYBOLD.OTF in Resources */,
+				E79754E62BA8F48100188E55 /* SFPRODISPLAYMEDIUM.OTF in Resources */,
+				E79754E72BA8F48100188E55 /* SFPRODISPLAYULTRALIGHTITALIC.OTF in Resources */,
+				E7DFD07B2BA59D9F00C9CC51 /* HistoryViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,15 +359,28 @@
 			files = (
 				E786EE8D2BA22C93003797AD /* MainViewController.swift in Sources */,
 				E786EE752BA21DC1003797AD /* ViewController.swift in Sources */,
+				E781C0742BAA245C008800BD /* String + Extension.swift in Sources */,
 				E786EE712BA21DC1003797AD /* AppDelegate.swift in Sources */,
+				E79754CF2BA8DC1200188E55 /* FilterInfo + CoreDataProperties.swift in Sources */,
+				E70442162BA88B4800998D4E /* CoreDataManager.swift in Sources */,
+				E7DFD07D2BA5AA5600C9CC51 /* FilterModel.swift in Sources */,
 				E786EE732BA21DC1003797AD /* SceneDelegate.swift in Sources */,
 				E786EE902BA23040003797AD /* View + Extension.swift in Sources */,
+				E7B224862BA4F1710062EF5F /* HistoryViewController.swift in Sources */,
 				E70A76012BA2FDB2001980CB /* NasaAPI.swift in Sources */,
+				E70442102BA889DE00998D4E /* PhotoInfo+CoreDataProperties.swift in Sources */,
+				E70442142BA889DE00998D4E /* RoverInfo+CoreDataProperties.swift in Sources */,
+				E70442182BA8B4D700998D4E /* LocalData.swift in Sources */,
 				E70A76042BA30112001980CB /* RoversModel.swift in Sources */,
+				E70442122BA889DE00998D4E /* CameraInfo+CoreDataProperties.swift in Sources */,
 				E786EE932BA235BB003797AD /* MainViewCell.swift in Sources */,
+				E79754D42BA8E85200188E55 /* NasaPhoto.xcdatamodeld in Sources */,
 				E70A76142BA39E16001980CB /* FullScreenImageViewController.swift in Sources */,
+				E7C2A3AB2BA3B0D200ED5776 /* DateFilterController.swift in Sources */,
+				E704421A2BA8C52200998D4E /* AppColors.swift in Sources */,
 				E70A760E2BA386C3001980CB /* Extension + UIFont.swift in Sources */,
-				E786EE7B2BA21DC1003797AD /* NasaPhoto.xcdatamodeld in Sources */,
+				E7B224832BA463CB0062EF5F /* FiltersPickerController.swift in Sources */,
+				E7DFD07A2BA59D9F00C9CC51 /* HistoryViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -517,12 +637,12 @@
 /* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
-		E786EE792BA21DC1003797AD /* NasaPhoto.xcdatamodeld */ = {
+		E79754D22BA8E85200188E55 /* NasaPhoto.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				E786EE7A2BA21DC1003797AD /* NasaPhoto.xcdatamodel */,
+				E79754D32BA8E85200188E55 /* NasaPhoto.xcdatamodel */,
 			);
-			currentVersion = E786EE7A2BA21DC1003797AD /* NasaPhoto.xcdatamodel */;
+			currentVersion = E79754D32BA8E85200188E55 /* NasaPhoto.xcdatamodel */;
 			path = NasaPhoto.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;

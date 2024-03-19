@@ -1,24 +1,26 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="22522" systemVersion="23A344" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
-    <entity name="CameraInfo" representedClassName="CameraInfo" syncable="YES" codeGenerationType="class">
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="22522" systemVersion="23A344" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithSwiftData="YES" userDefinedModelVersionIdentifier="">
+    <entity name="CameraInfo" representedClassName="CameraInfo" syncable="YES">
         <attribute name="fullName" optional="YES" attributeType="String"/>
         <attribute name="id" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
         <attribute name="name" optional="YES" attributeType="String"/>
         <attribute name="roverID" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
     </entity>
+    <entity name="FilterInfo" representedClassName="FilterInfo" syncable="YES">
+        <attribute name="camera" optional="YES" attributeType="String"/>
+        <attribute name="date" optional="YES" attributeType="String"/>
+        <attribute name="id" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="rover" optional="YES" attributeType="String"/>
+    </entity>
     <entity name="PhotoInfo" representedClassName="PhotoInfo" syncable="YES">
-        <attribute name="attribute" optional="YES"/>
-        <attribute name="attribute1" optional="YES"/>
-        <attribute name="attribute2" optional="YES"/>
-        <attribute name="attribute3" optional="YES"/>
         <attribute name="camera" optional="YES" attributeType="Transformable"/>
         <attribute name="earthDate" optional="YES" attributeType="String"/>
         <attribute name="id" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
         <attribute name="imgSrc" optional="YES" attributeType="String"/>
         <attribute name="rover" optional="YES" attributeType="Transformable"/>
     </entity>
-    <entity name="RoverInfo" representedClassName="RoverInfo" syncable="YES" codeGenerationType="class">
-        <attribute name="id" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+    <entity name="RoverInfo" representedClassName="RoverInfo" syncable="YES">
+        <attribute name="id" optional="YES" attributeType="String"/>
         <attribute name="landingDate" optional="YES" attributeType="String"/>
         <attribute name="launchDate" optional="YES" attributeType="String"/>
         <attribute name="name" optional="YES" attributeType="String"/>

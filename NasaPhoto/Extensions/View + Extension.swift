@@ -20,12 +20,12 @@ import UIKit
         }
     }
 
-    @IBInspectable var shadowOpacity: Float{
+    @IBInspectable var shadowOpacity: CGFloat{
         set {
-            layer.shadowOpacity = newValue
+            layer.shadowOpacity = Float(newValue)
         }
         get{
-            return layer.shadowOpacity
+            return CGFloat(layer.shadowOpacity)
         }
     }
 
