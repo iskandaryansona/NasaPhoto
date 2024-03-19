@@ -30,7 +30,7 @@ class HistoryViewCell: UITableViewCell {
         
         roverLabel.attributedText = createSpecialString(normalText: "Rover:  ", boldText: info.rover)
         cameraLabel.attributedText = createSpecialString(normalText: "Camera:  ", boldText: info.camera)
-        dateLabel.attributedText = createSpecialString(normalText: "Date:  ", boldText:  info.date)
+        dateLabel.attributedText = createSpecialString(normalText: "Date:  ", boldText:  info.date.convertDateFormat())
         mainView.layer.masksToBounds = false
         mainView.layer.shadowOpacity = 0.2
         

@@ -3,12 +3,13 @@
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22504"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <customFonts key="customFonts">
-        <array key="SF-Bold.ttf">
+        <array key="SFPRODISPLAYBOLD.OTF">
             <string>SFProDisplay-Bold</string>
         </array>
     </customFonts>
@@ -74,7 +75,7 @@
                                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="June 6, 2019" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mc4-hP-ABx">
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="May 30, 2015" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mc4-hP-ABx">
                                                 <rect key="frame" x="0.0" y="40.666666666666671" width="244.66666666666666" height="20.333333333333329"/>
                                                 <fontDescription key="fontDescription" name="SFProDisplay-Bold" family="SF Pro Display" pointSize="17"/>
                                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -214,7 +215,7 @@
                                         </userDefinedRuntimeAttributes>
                                     </view>
                                 </subviews>
-                                <color key="backgroundColor" red="0.92941176470588238" green="0.44705882352941173" blue="0.24705882352941178" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="backgroundColor" name="color.view.orange"/>
                                 <constraints>
                                     <constraint firstItem="nba-2p-fHU" firstAttribute="top" secondItem="muk-GC-sMR" secondAttribute="top" constant="68" id="JiZ-d6-7G8"/>
                                     <constraint firstAttribute="trailing" secondItem="nba-2p-fHU" secondAttribute="trailing" constant="16" id="NDb-B4-2rY"/>
@@ -249,6 +250,7 @@
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zXF-zu-b3f">
                                         <rect key="frame" x="0.0" y="0.0" width="70" height="70"/>
+                                        <color key="tintColor" name="color.view.orange"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" image="history.icon"/>
                                         <connections>
@@ -256,8 +258,8 @@
                                         </connections>
                                     </button>
                                 </subviews>
-                                <color key="backgroundColor" red="1" green="0.41176470588235292" blue="0.17254901960784313" alpha="1" colorSpace="calibratedRGB"/>
-                                <color key="tintColor" red="0.92941176469999998" green="0.44705882349999998" blue="0.2470588235" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="backgroundColor" name="color.view.orange"/>
+                                <color key="tintColor" name="color.view.orange"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="70" id="2oK-1y-JqB"/>
                                     <constraint firstItem="zXF-zu-b3f" firstAttribute="leading" secondItem="4my-Jf-kJq" secondAttribute="leading" id="8LX-Fk-WtN"/>
@@ -289,6 +291,7 @@
                     </view>
                     <connections>
                         <outlet property="dataTableView" destination="6AD-NB-oNf" id="7n4-gs-bnw"/>
+                        <outlet property="todayLabel" destination="Mc4-hP-ABx" id="kBY-RO-YQL"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9Ig-Rs-fLb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -340,7 +343,7 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
-                                <color key="backgroundColor" red="0.92941176470588238" green="0.44705882352941173" blue="0.24705882352941178" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="backgroundColor" name="color.view.orange"/>
                                 <constraints>
                                     <constraint firstItem="ogl-P4-3ic" firstAttribute="leading" secondItem="uTm-48-qt7" secondAttribute="leading" constant="16" id="0Ud-kA-ng7"/>
                                     <constraint firstAttribute="height" constant="135" id="8fd-K5-D4I"/>
@@ -423,6 +426,9 @@
         <image name="history.icon" width="44" height="44"/>
         <image name="left.icon" width="44" height="44"/>
         <image name="rover.icon" width="24" height="24"/>
+        <namedColor name="color.view.orange">
+            <color red="0.92941176470588238" green="0.44705882352941173" blue="0.24705882352941178" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+        </namedColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

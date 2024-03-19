@@ -26,22 +26,22 @@
                         <rect key="frame" x="5" y="5" width="279" height="140"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" spacing="7" translatesAutoresizingMaskIntoConstraints="NO" id="ERz-l0-PkB">
-                                <rect key="frame" x="8" y="58.666666666666664" width="111" height="22.666666666666664"/>
+                                <rect key="frame" x="8" y="58.666666666666664" width="116" height="22.666666666666664"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Rover: Curiosity" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TY1-lC-5rq">
-                                        <rect key="frame" x="0.0" y="0.0" width="111" height="3"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="116" height="3"/>
                                         <fontDescription key="fontDescription" name="SFProDisplay-Regular" family="SF Pro Display" pointSize="16"/>
                                         <color key="textColor" name="color.text.lightGray"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Camera:  Front Hazard Avoidance Camera" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ssi-Az-RsN">
-                                        <rect key="frame" x="0.0" y="10.000000000000007" width="111" height="3"/>
+                                        <rect key="frame" x="0.0" y="10.000000000000007" width="116" height="3"/>
                                         <fontDescription key="fontDescription" name="SFProDisplay-Regular" family="SF Pro Display" pointSize="16"/>
                                         <color key="textColor" name="color.text.lightGray"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Date: June 6, 2019" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ub1-FX-zdF">
-                                        <rect key="frame" x="0.0" y="19.666666666666664" width="111" height="3"/>
+                                        <rect key="frame" x="0.0" y="19.666666666666664" width="116" height="3"/>
                                         <fontDescription key="fontDescription" name="SFProDisplay-Regular" family="SF Pro Display" pointSize="16"/>
                                         <color key="textColor" name="color.text.lightGray"/>
                                         <nil key="highlightedColor"/>
@@ -66,7 +66,7 @@
                             <constraint firstItem="ERz-l0-PkB" firstAttribute="centerY" secondItem="Ig2-9D-H5g" secondAttribute="centerY" id="29C-0r-4CG"/>
                             <constraint firstAttribute="trailing" secondItem="Ig2-9D-H5g" secondAttribute="trailing" constant="5" id="I53-Z0-TaO"/>
                             <constraint firstItem="ERz-l0-PkB" firstAttribute="leading" secondItem="Ohs-IW-BYm" secondAttribute="leading" constant="8" id="Nng-oy-ZaB"/>
-                            <constraint firstItem="Ig2-9D-H5g" firstAttribute="leading" secondItem="ERz-l0-PkB" secondAttribute="trailing" constant="25" id="nQ8-iv-156"/>
+                            <constraint firstItem="Ig2-9D-H5g" firstAttribute="leading" secondItem="ERz-l0-PkB" secondAttribute="trailing" constant="20" id="nQ8-iv-156"/>
                             <constraint firstItem="Ig2-9D-H5g" firstAttribute="centerY" secondItem="Ohs-IW-BYm" secondAttribute="centerY" id="qvo-gP-bPQ"/>
                         </constraints>
                         <userDefinedRuntimeAttributes>

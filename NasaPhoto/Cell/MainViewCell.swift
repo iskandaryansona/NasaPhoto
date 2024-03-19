@@ -31,7 +31,7 @@ class MainViewCell: UITableViewCell {
         
         roverText.attributedText = createSpecialString(normalText: "Rover:  ", boldText: info.rover.name)
         cameraText.attributedText = createSpecialString(normalText: "Camera:  ", boldText: info.camera.fullName)
-        dataText.attributedText = createSpecialString(normalText: "Date:  ", boldText:  info.earthDate)
+        dataText.attributedText = createSpecialString(normalText: "Date:  ", boldText:  info.earthDate.convertDateFormat())
         
         if let imgUrl = URL(string: info.imgSrc) {
             let resource = KF.ImageResource(downloadURL: imgUrl, cacheKey: info.imgSrc)

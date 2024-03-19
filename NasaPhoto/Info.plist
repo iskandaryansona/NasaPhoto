@@ -4,7 +4,8 @@
 <dict>
 	<key>UIAppFonts</key>
 	<array>
-		<string>SF-Bold.ttf</string>
+		<string>SFPRODISPLAYBOLD.OTF</string>
+		<string>SFPRODISPLAYREGULAR.OTF</string>
 	</array>
 	<key>NSAppTransportSecurity</key>
 	<dict>
