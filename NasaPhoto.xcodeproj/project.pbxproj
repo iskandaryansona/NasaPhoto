@@ -49,9 +49,10 @@
 		E7C2A3AC2BA3B0D200ED5776 /* DateFilterController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E7C2A3AA2BA3B0D200ED5776 /* DateFilterController.xib */; };
 		E7DFD07A2BA59D9F00C9CC51 /* HistoryViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7DFD0782BA59D9F00C9CC51 /* HistoryViewCell.swift */; };
 		E7DFD07B2BA59D9F00C9CC51 /* HistoryViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E7DFD0792BA59D9F00C9CC51 /* HistoryViewCell.xib */; };
-		E7DFD07D2BA5AA5600C9CC51 /* FilterModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7DFD07C2BA5AA5600C9CC51 /* FilterModel.swift */; };
+		E7DFD07D2BA5AA5600C9CC51 /* FilterManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7DFD07C2BA5AA5600C9CC51 /* FilterManager.swift */; };
 		E7FF23452BAAFAE9005E6849 /* RoversViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7FF23442BAAFAE9005E6849 /* RoversViewModel.swift */; };
 		E7FF234C2BAAFC74005E6849 /* RoversServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7FF234B2BAAFC74005E6849 /* RoversServiceProtocol.swift */; };
+		E7FF23582BAB40E5005E6849 /* FilterModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7FF23572BAB40E5005E6849 /* FilterModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -97,9 +98,10 @@
 		E7C2A3AA2BA3B0D200ED5776 /* DateFilterController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DateFilterController.xib; sourceTree = "<group>"; };
 		E7DFD0782BA59D9F00C9CC51 /* HistoryViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewCell.swift; sourceTree = "<group>"; };
 		E7DFD0792BA59D9F00C9CC51 /* HistoryViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HistoryViewCell.xib; sourceTree = "<group>"; };
-		E7DFD07C2BA5AA5600C9CC51 /* FilterModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterModel.swift; sourceTree = "<group>"; };
+		E7DFD07C2BA5AA5600C9CC51 /* FilterManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterManager.swift; sourceTree = "<group>"; };
 		E7FF23442BAAFAE9005E6849 /* RoversViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoversViewModel.swift; sourceTree = "<group>"; };
 		E7FF234B2BAAFC74005E6849 /* RoversServiceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoversServiceProtocol.swift; sourceTree = "<group>"; };
+		E7FF23572BAB40E5005E6849 /* FilterModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -171,10 +173,9 @@
 		E70A76022BA30106001980CB /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				E7FF23592BAB40F1005E6849 /* LocalModel */,
 				E7FF23422BAAFABF005E6849 /* ResponseModel */,
 				E7FF23432BAAFAD6005E6849 /* ViewModel */,
-				E7DFD07C2BA5AA5600C9CC51 /* FilterModel.swift */,
-				E70442172BA8B4D700998D4E /* LocalData.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -192,6 +193,8 @@
 			isa = PBXGroup;
 			children = (
 				E70442192BA8C52200998D4E /* AppColors.swift */,
+				E7DFD07C2BA5AA5600C9CC51 /* FilterManager.swift */,
+				E70442152BA88B4800998D4E /* CoreDataManager.swift */,
 			);
 			path = Managers;
 			sourceTree = "<group>";
@@ -229,7 +232,6 @@
 				E786EE812BA21DC3003797AD /* Info.plist */,
 				E70A75FC2BA2FC9F001980CB /* Resources */,
 				E786EE8E2BA2302F003797AD /* Extensions */,
-				E70442152BA88B4800998D4E /* CoreDataManager.swift */,
 			);
 			path = NasaPhoto;
 			sourceTree = "<group>";
@@ -300,6 +302,15 @@
 				E70A76002BA2FDB2001980CB /* NasaAPI.swift */,
 			);
 			path = "API Manager";
+			sourceTree = "<group>";
+		};
+		E7FF23592BAB40F1005E6849 /* LocalModel */ = {
+			isa = PBXGroup;
+			children = (
+				E7FF23572BAB40E5005E6849 /* FilterModel.swift */,
+				E70442172BA8B4D700998D4E /* LocalData.swift */,
+			);
+			path = LocalModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -402,11 +413,12 @@
 				E786EE712BA21DC1003797AD /* AppDelegate.swift in Sources */,
 				E79754CF2BA8DC1200188E55 /* FilterInfo + CoreDataProperties.swift in Sources */,
 				E70442162BA88B4800998D4E /* CoreDataManager.swift in Sources */,
-				E7DFD07D2BA5AA5600C9CC51 /* FilterModel.swift in Sources */,
+				E7DFD07D2BA5AA5600C9CC51 /* FilterManager.swift in Sources */,
 				E786EE732BA21DC1003797AD /* SceneDelegate.swift in Sources */,
 				E786EE902BA23040003797AD /* View + Extension.swift in Sources */,
 				E7B224862BA4F1710062EF5F /* HistoryViewController.swift in Sources */,
 				E70A76012BA2FDB2001980CB /* NasaAPI.swift in Sources */,
+				E7FF23582BAB40E5005E6849 /* FilterModel.swift in Sources */,
 				E70442102BA889DE00998D4E /* PhotoInfo+CoreDataProperties.swift in Sources */,
 				E70442142BA889DE00998D4E /* RoverInfo+CoreDataProperties.swift in Sources */,
 				E70442182BA8B4D700998D4E /* LocalData.swift in Sources */,

@@ -7,79 +7,47 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "7D2CAA6D-D872-4810-9249-2BF3903927EC"
+            uuid = "F14E0D26-FAA9-4B49-85FD-F9C24AA00F46"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "NasaPhoto/Resources/Fonts/Extension + UIFont.swift"
+            filePath = "NasaPhoto/Controllers/Filters/FiltersPickerController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "15"
-            endingLineNumber = "15"
-            landmarkName = "boldSFPro(size:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "7D219C8C-AA75-4C35-B20E-55FB8FC0AB1C"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "NasaPhoto/Resources/Fonts/Extension + UIFont.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "17"
-            endingLineNumber = "17"
-            landmarkName = "boldSFPro(size:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "1C422823-D040-4CF2-8987-B0D982C45A93"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "NasaPhoto/Controllers/HistoryViewController.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "104"
-            endingLineNumber = "104"
-            landmarkName = "tableView(_:didSelectRowAt:)"
+            startingLineNumber = "49"
+            endingLineNumber = "49"
+            landmarkName = "doneAction(_:)"
             landmarkType = "7">
             <Locations>
                <Location
-                  uuid = "1C422823-D040-4CF2-8987-B0D982C45A93 - 94f932c77cecf41e"
+                  uuid = "F14E0D26-FAA9-4B49-85FD-F9C24AA00F46 - 8eb049af7f87e765"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "closure #2 (__C.UIAlertAction) -&gt; () in NasaPhoto.HistoryViewController.tableView(_: __C.UITableView, didSelectRowAt: Foundation.IndexPath) -&gt; ()"
+                  symbolName = "NasaPhoto.FiltersPickerController.doneAction(__C.UIButton) -&gt; ()"
                   moduleName = "NasaPhoto"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/sona/Documents/GitHub/NasaPhoto/NasaPhoto/Controllers/HistoryViewController.swift"
+                  urlString = "file:///Users/sona/Documents/GitHub/NasaPhoto/NasaPhoto/Controllers/Filters/FiltersPickerController.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "72"
-                  endingLineNumber = "72"
-                  offsetFromSymbolStart = "820">
+                  startingLineNumber = "49"
+                  endingLineNumber = "49"
+                  offsetFromSymbolStart = "540">
                </Location>
                <Location
-                  uuid = "1C422823-D040-4CF2-8987-B0D982C45A93 - 94f932c77cecf83e"
+                  uuid = "F14E0D26-FAA9-4B49-85FD-F9C24AA00F46 - 8eb049af7f87e765"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "closure #2 (__C.UIAlertAction) -&gt; () in NasaPhoto.HistoryViewController.tableView(_: __C.UITableView, didSelectRowAt: Foundation.IndexPath) -&gt; ()"
+                  symbolName = "NasaPhoto.FiltersPickerController.doneAction(__C.UIButton) -&gt; ()"
                   moduleName = "NasaPhoto"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/sona/Documents/GitHub/NasaPhoto/NasaPhoto/Controllers/HistoryViewController.swift"
+                  urlString = "file:///Users/sona/Documents/GitHub/NasaPhoto/NasaPhoto/Controllers/Filters/FiltersPickerController.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "104"
-                  endingLineNumber = "104"
-                  offsetFromSymbolStart = "504">
+                  startingLineNumber = "49"
+                  endingLineNumber = "49"
+                  offsetFromSymbolStart = "656">
                </Location>
             </Locations>
          </BreakpointContent>
@@ -87,79 +55,62 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "98672381-20AE-4816-A8F3-8A990339E95E"
+            uuid = "7989F3E6-FCFA-4957-8778-1EFE5E29C76D"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "NasaPhoto/Controllers/Filters/DateFilterController.swift"
+            filePath = "NasaPhoto/Controllers/Filters/FiltersPickerController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "48"
-            endingLineNumber = "48"
-            landmarkName = "filterByDate()"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "F268A61E-0CD9-4E88-95F0-093843F8AA04"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "NasaPhoto/Cell/HistoryViewCell.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "32"
-            endingLineNumber = "32"
-            landmarkName = "configUI(info:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "CDA1E236-C2F9-4051-845B-782792648FBF"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "NasaPhoto/Cell/HistoryViewCell.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "33"
-            endingLineNumber = "33"
-            landmarkName = "configUI(info:)"
+            startingLineNumber = "50"
+            endingLineNumber = "50"
+            landmarkName = "doneAction(_:)"
             landmarkType = "7">
             <Locations>
                <Location
-                  uuid = "CDA1E236-C2F9-4051-845B-782792648FBF - e823cba5f2cb305f"
+                  uuid = "7989F3E6-FCFA-4957-8778-1EFE5E29C76D - 8eb049af7f87e4bb"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "NasaPhoto.HistoryViewCell.configUI(info: NasaPhoto.FilterModel) -&gt; ()"
+                  symbolName = "NasaPhoto.FiltersPickerController.doneAction(__C.UIButton) -&gt; ()"
                   moduleName = "NasaPhoto"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/sona/Documents/GitHub/NasaPhoto/NasaPhoto/Cell/HistoryViewCell.swift"
+                  urlString = "file:///Users/sona/Documents/GitHub/NasaPhoto/NasaPhoto/Controllers/Filters/FiltersPickerController.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "33"
-                  endingLineNumber = "33"
-                  offsetFromSymbolStart = "1060">
+                  startingLineNumber = "51"
+                  endingLineNumber = "51"
+                  offsetFromSymbolStart = "576">
                </Location>
                <Location
-                  uuid = "CDA1E236-C2F9-4051-845B-782792648FBF - e823cba5f2cb305f"
+                  uuid = "7989F3E6-FCFA-4957-8778-1EFE5E29C76D - 8eb049af7f87e4bb"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "NasaPhoto.HistoryViewCell.configUI(info: NasaPhoto.FilterModel) -&gt; ()"
+                  symbolName = "NasaPhoto.FiltersPickerController.doneAction(__C.UIButton) -&gt; ()"
                   moduleName = "NasaPhoto"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/sona/Documents/GitHub/NasaPhoto/NasaPhoto/Cell/HistoryViewCell.swift"
+                  urlString = "file:///Users/sona/Documents/GitHub/NasaPhoto/NasaPhoto/Controllers/Filters/FiltersPickerController.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "33"
-                  endingLineNumber = "33"
-                  offsetFromSymbolStart = "1052">
+                  startingLineNumber = "51"
+                  endingLineNumber = "51"
+                  offsetFromSymbolStart = "700">
+               </Location>
+               <Location
+                  uuid = "7989F3E6-FCFA-4957-8778-1EFE5E29C76D - 8eb049af7f87e4bb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "NasaPhoto.FiltersPickerController.doneAction(__C.UIButton) -&gt; ()"
+                  moduleName = "NasaPhoto"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sona/Documents/GitHub/NasaPhoto/NasaPhoto/Controllers/Filters/FiltersPickerController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "51"
+                  endingLineNumber = "51"
+                  offsetFromSymbolStart = "692">
                </Location>
             </Locations>
          </BreakpointContent>
@@ -167,77 +118,62 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "8798721C-3519-4D57-9837-A42FFD8F1E44"
+            uuid = "6623297D-45AD-4ABB-855C-6CB9F3691790"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "NasaPhoto/Model/LocalData.swift"
+            filePath = "NasaPhoto/Controllers/Filters/FiltersPickerController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "33"
-            endingLineNumber = "33"
-            landmarkName = "keys(forValue:)"
+            startingLineNumber = "59"
+            endingLineNumber = "59"
+            landmarkName = "doneAction(_:)"
             landmarkType = "7">
             <Locations>
                <Location
-                  uuid = "8798721C-3519-4D57-9837-A42FFD8F1E44 - e275553f3ed6f8dd"
+                  uuid = "6623297D-45AD-4ABB-855C-6CB9F3691790 - 8eb049af7f87e5b3"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "Swift.Dictionary&lt; where &#x3c4;_0_1: Swift.Equatable&gt;.keys(forValue: &#x3c4;_0_1) -&gt; Swift.Array&lt;&#x3c4;_0_0&gt;"
+                  symbolName = "NasaPhoto.FiltersPickerController.doneAction(__C.UIButton) -&gt; ()"
                   moduleName = "NasaPhoto"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/sona/Documents/GitHub/NasaPhoto/NasaPhoto/Model/LocalData.swift"
+                  urlString = "file:///Users/sona/Documents/GitHub/NasaPhoto/NasaPhoto/Controllers/Filters/FiltersPickerController.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "33"
-                  endingLineNumber = "33"
-                  offsetFromSymbolStart = "156">
+                  startingLineNumber = "59"
+                  endingLineNumber = "59"
+                  offsetFromSymbolStart = "2352">
                </Location>
                <Location
-                  uuid = "8798721C-3519-4D57-9837-A42FFD8F1E44 - 1d649a54d0958c05"
+                  uuid = "6623297D-45AD-4ABB-855C-6CB9F3691790 - 8eb049af7f87e5b3"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (&#x3c4;_0_0, &#x3c4;_0_1) -&gt; Swift.Optional&lt;&#x3c4;_0_0&gt; in Swift.Dictionary&lt; where &#x3c4;_0_1: Swift.Equatable&gt;.keys(forValue: &#x3c4;_0_1) -&gt; Swift.Array&lt;&#x3c4;_0_0&gt;"
+                  symbolName = "NasaPhoto.FiltersPickerController.doneAction(__C.UIButton) -&gt; ()"
                   moduleName = "NasaPhoto"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/sona/Documents/GitHub/NasaPhoto/NasaPhoto/Model/LocalData.swift"
+                  urlString = "file:///Users/sona/Documents/GitHub/NasaPhoto/NasaPhoto/Controllers/Filters/FiltersPickerController.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "34"
-                  endingLineNumber = "34"
-                  offsetFromSymbolStart = "96">
+                  startingLineNumber = "59"
+                  endingLineNumber = "59"
+                  offsetFromSymbolStart = "2432">
                </Location>
                <Location
-                  uuid = "8798721C-3519-4D57-9837-A42FFD8F1E44 - e1f04996797499dd"
+                  uuid = "6623297D-45AD-4ABB-855C-6CB9F3691790 - 943977ac83c7a569"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "Swift.Dictionary.keys(forValue: &#x3c4;_0_0) -&gt; Swift.Array&lt;&#x3c4;_0_1&gt;"
+                  symbolName = "closure #2 (Swift.Bool) -&gt; () in NasaPhoto.FiltersPickerController.doneAction(__C.UIButton) -&gt; ()"
                   moduleName = "NasaPhoto"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/sona/Documents/GitHub/NasaPhoto/NasaPhoto/Model/LocalData.swift"
+                  urlString = "file:///Users/sona/Documents/GitHub/NasaPhoto/NasaPhoto/Controllers/Filters/FiltersPickerController.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "33"
-                  endingLineNumber = "33"
-                  offsetFromSymbolStart = "140">
-               </Location>
-               <Location
-                  uuid = "8798721C-3519-4D57-9837-A42FFD8F1E44 - cb750a7b326d9220"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (&#x3c4;_0_0, &#x3c4;_0_1) -&gt; Swift.Optional&lt;&#x3c4;_0_1&gt; in Swift.Dictionary.keys(forValue: &#x3c4;_0_0) -&gt; Swift.Array&lt;&#x3c4;_0_1&gt;"
-                  moduleName = "NasaPhoto"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/sona/Documents/GitHub/NasaPhoto/NasaPhoto/Model/LocalData.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "34"
-                  endingLineNumber = "34"
-                  offsetFromSymbolStart = "84">
+                  startingLineNumber = "60"
+                  endingLineNumber = "60"
+                  offsetFromSymbolStart = "56">
                </Location>
             </Locations>
          </BreakpointContent>
@@ -245,47 +181,47 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "9431D3E5-2C39-4802-830B-B7A08D7643E3"
+            uuid = "E3B39691-1023-4013-A828-668B283BC2C3"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "NasaPhoto/Model/LocalData.swift"
+            filePath = "NasaPhoto/Controllers/Filters/FiltersPickerController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "34"
-            endingLineNumber = "34"
-            landmarkName = "keys(forValue:)"
+            startingLineNumber = "58"
+            endingLineNumber = "58"
+            landmarkName = "doneAction(_:)"
             landmarkType = "7">
             <Locations>
                <Location
-                  uuid = "9431D3E5-2C39-4802-830B-B7A08D7643E3 - 1d649a54d0958c05"
+                  uuid = "E3B39691-1023-4013-A828-668B283BC2C3 - 8eb049af7f87e452"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (&#x3c4;_0_0, &#x3c4;_0_1) -&gt; Swift.Optional&lt;&#x3c4;_0_0&gt; in Swift.Dictionary&lt; where &#x3c4;_0_1: Swift.Equatable&gt;.keys(forValue: &#x3c4;_0_1) -&gt; Swift.Array&lt;&#x3c4;_0_0&gt;"
+                  symbolName = "NasaPhoto.FiltersPickerController.doneAction(__C.UIButton) -&gt; ()"
                   moduleName = "NasaPhoto"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/sona/Documents/GitHub/NasaPhoto/NasaPhoto/Model/LocalData.swift"
+                  urlString = "file:///Users/sona/Documents/GitHub/NasaPhoto/NasaPhoto/Controllers/Filters/FiltersPickerController.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "34"
-                  endingLineNumber = "34"
-                  offsetFromSymbolStart = "96">
+                  startingLineNumber = "58"
+                  endingLineNumber = "58"
+                  offsetFromSymbolStart = "2092">
                </Location>
                <Location
-                  uuid = "9431D3E5-2C39-4802-830B-B7A08D7643E3 - cb750a7b326d9220"
+                  uuid = "E3B39691-1023-4013-A828-668B283BC2C3 - 8eb049af7f87e452"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (&#x3c4;_0_0, &#x3c4;_0_1) -&gt; Swift.Optional&lt;&#x3c4;_0_1&gt; in Swift.Dictionary.keys(forValue: &#x3c4;_0_0) -&gt; Swift.Array&lt;&#x3c4;_0_1&gt;"
+                  symbolName = "NasaPhoto.FiltersPickerController.doneAction(__C.UIButton) -&gt; ()"
                   moduleName = "NasaPhoto"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/sona/Documents/GitHub/NasaPhoto/NasaPhoto/Model/LocalData.swift"
+                  urlString = "file:///Users/sona/Documents/GitHub/NasaPhoto/NasaPhoto/Controllers/Filters/FiltersPickerController.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "34"
-                  endingLineNumber = "34"
-                  offsetFromSymbolStart = "84">
+                  startingLineNumber = "58"
+                  endingLineNumber = "58"
+                  offsetFromSymbolStart = "2088">
                </Location>
             </Locations>
          </BreakpointContent>
@@ -293,47 +229,62 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "02DF382D-F165-4BD8-B09F-30640E59F684"
+            uuid = "5737E6FF-F620-4C2A-9176-835F85B17427"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "NasaPhoto/Model/LocalData.swift"
+            filePath = "NasaPhoto/Controllers/Filters/FiltersPickerController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "36"
-            endingLineNumber = "36"
-            landmarkName = "keys(forValue:)"
+            startingLineNumber = "60"
+            endingLineNumber = "60"
+            landmarkName = "doneAction(_:)"
             landmarkType = "7">
             <Locations>
                <Location
-                  uuid = "02DF382D-F165-4BD8-B09F-30640E59F684 - 1d649a54d0958fa2"
+                  uuid = "5737E6FF-F620-4C2A-9176-835F85B17427 - 8eb049af7f87e590"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (&#x3c4;_0_0, &#x3c4;_0_1) -&gt; Swift.Optional&lt;&#x3c4;_0_0&gt; in Swift.Dictionary&lt; where &#x3c4;_0_1: Swift.Equatable&gt;.keys(forValue: &#x3c4;_0_1) -&gt; Swift.Array&lt;&#x3c4;_0_0&gt;"
+                  symbolName = "NasaPhoto.FiltersPickerController.doneAction(__C.UIButton) -&gt; ()"
                   moduleName = "NasaPhoto"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/sona/Documents/GitHub/NasaPhoto/NasaPhoto/Model/LocalData.swift"
+                  urlString = "file:///Users/sona/Documents/GitHub/NasaPhoto/NasaPhoto/Controllers/Filters/FiltersPickerController.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "37"
-                  endingLineNumber = "37"
-                  offsetFromSymbolStart = "180">
+                  startingLineNumber = "60"
+                  endingLineNumber = "60"
+                  offsetFromSymbolStart = "2700">
                </Location>
                <Location
-                  uuid = "02DF382D-F165-4BD8-B09F-30640E59F684 - cb750a7b326d9187"
+                  uuid = "5737E6FF-F620-4C2A-9176-835F85B17427 - 943977ac83c7a508"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (&#x3c4;_0_0, &#x3c4;_0_1) -&gt; Swift.Optional&lt;&#x3c4;_0_1&gt; in Swift.Dictionary.keys(forValue: &#x3c4;_0_0) -&gt; Swift.Array&lt;&#x3c4;_0_1&gt;"
+                  symbolName = "closure #2 (Swift.Bool) -&gt; () in NasaPhoto.FiltersPickerController.doneAction(__C.UIButton) -&gt; ()"
                   moduleName = "NasaPhoto"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/sona/Documents/GitHub/NasaPhoto/NasaPhoto/Model/LocalData.swift"
+                  urlString = "file:///Users/sona/Documents/GitHub/NasaPhoto/NasaPhoto/Controllers/Filters/FiltersPickerController.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "37"
-                  endingLineNumber = "37"
-                  offsetFromSymbolStart = "172">
+                  startingLineNumber = "61"
+                  endingLineNumber = "61"
+                  offsetFromSymbolStart = "56">
+               </Location>
+               <Location
+                  uuid = "5737E6FF-F620-4C2A-9176-835F85B17427 - 943977ac83c7a569"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (Swift.Bool) -&gt; () in NasaPhoto.FiltersPickerController.doneAction(__C.UIButton) -&gt; ()"
+                  moduleName = "NasaPhoto"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sona/Documents/GitHub/NasaPhoto/NasaPhoto/Controllers/Filters/FiltersPickerController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "60"
+                  endingLineNumber = "60"
+                  offsetFromSymbolStart = "56">
                </Location>
             </Locations>
          </BreakpointContent>
@@ -341,47 +292,62 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "42E8C0E5-9039-41B9-A1BC-0BCEA86DBCC3"
+            uuid = "50DE12B0-06D4-40CD-B3AB-4983DE467EE2"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "NasaPhoto/Model/LocalData.swift"
+            filePath = "NasaPhoto/Controllers/Filters/FiltersPickerController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "37"
-            endingLineNumber = "37"
-            landmarkName = "keys(forValue:)"
+            startingLineNumber = "54"
+            endingLineNumber = "54"
+            landmarkName = "doneAction(_:)"
             landmarkType = "7">
             <Locations>
                <Location
-                  uuid = "42E8C0E5-9039-41B9-A1BC-0BCEA86DBCC3 - 1d649a54d0958fa2"
+                  uuid = "50DE12B0-06D4-40CD-B3AB-4983DE467EE2 - 8eb049af7f87e4de"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (&#x3c4;_0_0, &#x3c4;_0_1) -&gt; Swift.Optional&lt;&#x3c4;_0_0&gt; in Swift.Dictionary&lt; where &#x3c4;_0_1: Swift.Equatable&gt;.keys(forValue: &#x3c4;_0_1) -&gt; Swift.Array&lt;&#x3c4;_0_0&gt;"
+                  symbolName = "NasaPhoto.FiltersPickerController.doneAction(__C.UIButton) -&gt; ()"
                   moduleName = "NasaPhoto"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/sona/Documents/GitHub/NasaPhoto/NasaPhoto/Model/LocalData.swift"
+                  urlString = "file:///Users/sona/Documents/GitHub/NasaPhoto/NasaPhoto/Controllers/Filters/FiltersPickerController.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "37"
-                  endingLineNumber = "37"
-                  offsetFromSymbolStart = "180">
+                  startingLineNumber = "54"
+                  endingLineNumber = "54"
+                  offsetFromSymbolStart = "1632">
                </Location>
                <Location
-                  uuid = "42E8C0E5-9039-41B9-A1BC-0BCEA86DBCC3 - cb750a7b326d9187"
+                  uuid = "50DE12B0-06D4-40CD-B3AB-4983DE467EE2 - d30b284538f9a6c1"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (&#x3c4;_0_0, &#x3c4;_0_1) -&gt; Swift.Optional&lt;&#x3c4;_0_1&gt; in Swift.Dictionary.keys(forValue: &#x3c4;_0_0) -&gt; Swift.Array&lt;&#x3c4;_0_1&gt;"
+                  symbolName = "closure #1 (Swift.Bool) -&gt; () in NasaPhoto.FiltersPickerController.doneAction(__C.UIButton) -&gt; ()"
                   moduleName = "NasaPhoto"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/sona/Documents/GitHub/NasaPhoto/NasaPhoto/Model/LocalData.swift"
+                  urlString = "file:///Users/sona/Documents/GitHub/NasaPhoto/NasaPhoto/Controllers/Filters/FiltersPickerController.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "37"
-                  endingLineNumber = "37"
-                  offsetFromSymbolStart = "172">
+                  startingLineNumber = "55"
+                  endingLineNumber = "55"
+                  offsetFromSymbolStart = "56">
+               </Location>
+               <Location
+                  uuid = "50DE12B0-06D4-40CD-B3AB-4983DE467EE2 - 8eb049af7f87e4de"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "NasaPhoto.FiltersPickerController.doneAction(__C.UIButton) -&gt; ()"
+                  moduleName = "NasaPhoto"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sona/Documents/GitHub/NasaPhoto/NasaPhoto/Controllers/Filters/FiltersPickerController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "54"
+                  endingLineNumber = "54"
+                  offsetFromSymbolStart = "1628">
                </Location>
             </Locations>
          </BreakpointContent>
@@ -389,47 +355,63 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "938AFA82-819E-4F12-84E6-B4FC7F5B20F3"
+            uuid = "9CCFF766-379E-4274-BE53-070DC0C394E4"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "NasaPhoto/Model/LocalData.swift"
+            filePath = "NasaPhoto/Controllers/Filters/FiltersPickerController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "38"
-            endingLineNumber = "38"
-            landmarkName = "keys(forValue:)"
+            startingLineNumber = "55"
+            endingLineNumber = "55"
+            landmarkName = "doneAction(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "06DADB86-C472-4B86-AAB9-B3E7009381D4"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NasaPhoto/Controllers/Filters/FiltersPickerController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "52"
+            endingLineNumber = "52"
+            landmarkName = "doneAction(_:)"
             landmarkType = "7">
             <Locations>
                <Location
-                  uuid = "938AFA82-819E-4F12-84E6-B4FC7F5B20F3 - 1d649a54d0958f81"
+                  uuid = "06DADB86-C472-4B86-AAB9-B3E7009381D4 - 8eb049af7f87e498"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (&#x3c4;_0_0, &#x3c4;_0_1) -&gt; Swift.Optional&lt;&#x3c4;_0_0&gt; in Swift.Dictionary&lt; where &#x3c4;_0_1: Swift.Equatable&gt;.keys(forValue: &#x3c4;_0_1) -&gt; Swift.Array&lt;&#x3c4;_0_0&gt;"
+                  symbolName = "NasaPhoto.FiltersPickerController.doneAction(__C.UIButton) -&gt; ()"
                   moduleName = "NasaPhoto"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/sona/Documents/GitHub/NasaPhoto/NasaPhoto/Model/LocalData.swift"
+                  urlString = "file:///Users/sona/Documents/GitHub/NasaPhoto/NasaPhoto/Controllers/Filters/FiltersPickerController.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "38"
-                  endingLineNumber = "38"
-                  offsetFromSymbolStart = "204">
+                  startingLineNumber = "52"
+                  endingLineNumber = "52"
+                  offsetFromSymbolStart = "916">
                </Location>
                <Location
-                  uuid = "938AFA82-819E-4F12-84E6-B4FC7F5B20F3 - cb750a7b326d91a4"
+                  uuid = "06DADB86-C472-4B86-AAB9-B3E7009381D4 - 8eb049af7f87e498"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (&#x3c4;_0_0, &#x3c4;_0_1) -&gt; Swift.Optional&lt;&#x3c4;_0_1&gt; in Swift.Dictionary.keys(forValue: &#x3c4;_0_0) -&gt; Swift.Array&lt;&#x3c4;_0_1&gt;"
+                  symbolName = "NasaPhoto.FiltersPickerController.doneAction(__C.UIButton) -&gt; ()"
                   moduleName = "NasaPhoto"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/sona/Documents/GitHub/NasaPhoto/NasaPhoto/Model/LocalData.swift"
+                  urlString = "file:///Users/sona/Documents/GitHub/NasaPhoto/NasaPhoto/Controllers/Filters/FiltersPickerController.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "38"
-                  endingLineNumber = "38"
-                  offsetFromSymbolStart = "196">
+                  startingLineNumber = "52"
+                  endingLineNumber = "52"
+                  offsetFromSymbolStart = "956">
                </Location>
             </Locations>
          </BreakpointContent>
@@ -437,55 +419,7 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "C367455F-739C-42E4-A448-7090D001FF5A"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "NasaPhoto/Model/LocalData.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "35"
-            endingLineNumber = "35"
-            landmarkName = "keys(forValue:)"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "C367455F-739C-42E4-A448-7090D001FF5A - 1d649a54d0958fe4"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (&#x3c4;_0_0, &#x3c4;_0_1) -&gt; Swift.Optional&lt;&#x3c4;_0_0&gt; in Swift.Dictionary&lt; where &#x3c4;_0_1: Swift.Equatable&gt;.keys(forValue: &#x3c4;_0_1) -&gt; Swift.Array&lt;&#x3c4;_0_0&gt;"
-                  moduleName = "NasaPhoto"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/sona/Documents/GitHub/NasaPhoto/NasaPhoto/Model/LocalData.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "35"
-                  endingLineNumber = "35"
-                  offsetFromSymbolStart = "124">
-               </Location>
-               <Location
-                  uuid = "C367455F-739C-42E4-A448-7090D001FF5A - cb750a7b326d91c1"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (&#x3c4;_0_0, &#x3c4;_0_1) -&gt; Swift.Optional&lt;&#x3c4;_0_1&gt; in Swift.Dictionary.keys(forValue: &#x3c4;_0_0) -&gt; Swift.Array&lt;&#x3c4;_0_1&gt;"
-                  moduleName = "NasaPhoto"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/sona/Documents/GitHub/NasaPhoto/NasaPhoto/Model/LocalData.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "35"
-                  endingLineNumber = "35"
-                  offsetFromSymbolStart = "116">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "54223F1F-84CE-4085-ACC6-5761B62CB64B"
+            uuid = "3F1E5638-72DD-43B6-BD82-57ABADE45BF1"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
@@ -495,118 +429,6 @@
             startingLineNumber = "48"
             endingLineNumber = "48"
             landmarkName = "doneAction(_:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "DE180535-08BC-47B9-B5EF-34FF294E63C6"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "NasaPhoto/Controllers/Filters/FiltersPickerController.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "118"
-            endingLineNumber = "118"
-            landmarkName = "pickerView(_:attributedTitleForRow:forComponent:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "1364EE7A-63BB-4D1D-95BE-850675359D5C"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "NasaPhoto/Controllers/Filters/FiltersPickerController.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "120"
-            endingLineNumber = "120"
-            landmarkName = "pickerView(_:attributedTitleForRow:forComponent:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "F6DD9B14-55D2-4A65-B27B-3AFD9FB952A4"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "NasaPhoto/Controllers/Filters/FiltersPickerController.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "124"
-            endingLineNumber = "124"
-            landmarkName = "pickerView(_:attributedTitleForRow:forComponent:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "51260977-9B37-4C8C-B7D0-8305AEDEF73F"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "NasaPhoto/Controllers/Filters/FiltersPickerController.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "126"
-            endingLineNumber = "126"
-            landmarkName = "pickerView(_:attributedTitleForRow:forComponent:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "4C1DACC4-76DB-4CAD-89F9-17297A85BBF3"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "NasaPhoto/Controllers/MainViewController.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "137"
-            endingLineNumber = "137"
-            landmarkName = "scrollViewDidScroll(_:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "CD70A5C1-9C6C-44DF-B0DE-9D1679A116F0"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "NasaPhoto/Controllers/MainViewController.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "136"
-            endingLineNumber = "136"
-            landmarkName = "scrollViewDidScroll(_:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "2B34410B-D93F-495B-A430-98845FE4FF71"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "NasaPhoto/Controllers/MainViewController.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "45"
-            endingLineNumber = "45"
-            landmarkName = "bindingViewModel()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

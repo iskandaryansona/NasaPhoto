@@ -110,7 +110,7 @@
                                                         </connections>
                                                     </button>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="All" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JID-mm-9cd">
-                                                        <rect key="frame" x="51" y="8.9999999999999982" width="20" height="20.333333333333329"/>
+                                                        <rect key="frame" x="49" y="8.9999999999999982" width="20" height="20.333333333333329"/>
                                                         <fontDescription key="fontDescription" name="SFProDisplay-Bold" family="SF Pro Display" pointSize="17"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
@@ -131,7 +131,7 @@
                                                     <constraint firstItem="kSD-co-xNE" firstAttribute="top" secondItem="kCU-lU-OkW" secondAttribute="top" id="SVI-2V-RQs"/>
                                                     <constraint firstItem="g2r-S3-HN4" firstAttribute="centerY" secondItem="kCU-lU-OkW" secondAttribute="centerY" id="SbO-ln-fcE"/>
                                                     <constraint firstAttribute="trailing" secondItem="kSD-co-xNE" secondAttribute="trailing" id="cWJ-eR-ZnG"/>
-                                                    <constraint firstItem="JID-mm-9cd" firstAttribute="leading" secondItem="g2r-S3-HN4" secondAttribute="trailing" constant="17" id="eRH-j4-ThP"/>
+                                                    <constraint firstItem="JID-mm-9cd" firstAttribute="leading" secondItem="g2r-S3-HN4" secondAttribute="trailing" constant="15" id="eRH-j4-ThP"/>
                                                     <constraint firstItem="kSD-co-xNE" firstAttribute="leading" secondItem="kCU-lU-OkW" secondAttribute="leading" id="kzM-EJ-sbd"/>
                                                 </constraints>
                                                 <userDefinedRuntimeAttributes>
@@ -152,7 +152,7 @@
                                                         </connections>
                                                     </button>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="All" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8uU-9c-eYw">
-                                                        <rect key="frame" x="51" y="8.9999999999999982" width="20" height="20.333333333333329"/>
+                                                        <rect key="frame" x="49" y="8.9999999999999982" width="20" height="20.333333333333329"/>
                                                         <fontDescription key="fontDescription" name="SFProDisplay-Bold" family="SF Pro Display" pointSize="17"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
@@ -169,7 +169,7 @@
                                                 <constraints>
                                                     <constraint firstAttribute="bottom" secondItem="Zlp-g1-zIP" secondAttribute="bottom" id="4GR-Y7-qW8"/>
                                                     <constraint firstItem="Zlp-g1-zIP" firstAttribute="leading" secondItem="nws-Or-YwT" secondAttribute="leading" id="DNr-xW-W27"/>
-                                                    <constraint firstItem="8uU-9c-eYw" firstAttribute="leading" secondItem="pBm-H4-vEF" secondAttribute="trailing" constant="17" id="EUj-2V-VB7"/>
+                                                    <constraint firstItem="8uU-9c-eYw" firstAttribute="leading" secondItem="pBm-H4-vEF" secondAttribute="trailing" constant="15" id="EUj-2V-VB7"/>
                                                     <constraint firstAttribute="trailing" secondItem="Zlp-g1-zIP" secondAttribute="trailing" id="GO9-zU-fsn"/>
                                                     <constraint firstItem="Zlp-g1-zIP" firstAttribute="top" secondItem="nws-Or-YwT" secondAttribute="top" id="Gt3-IA-Ml3"/>
                                                     <constraint firstItem="8uU-9c-eYw" firstAttribute="centerY" secondItem="nws-Or-YwT" secondAttribute="centerY" id="f0L-vH-Mtg"/>
@@ -429,7 +429,7 @@
         <image name="left.icon" width="44" height="44"/>
         <image name="rover.icon" width="24" height="24"/>
         <namedColor name="color.view.orange">
-            <color red="0.92941176470588238" green="0.44705882352941173" blue="0.24705882352941178" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+            <color red="0.92900002002716064" green="0.44699999690055847" blue="0.24699999392032623" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
         </namedColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>

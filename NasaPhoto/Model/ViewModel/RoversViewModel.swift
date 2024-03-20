@@ -16,6 +16,7 @@ final class RoversViewModel : ObservableObject {
     var subscriber = Set<AnyCancellable>()
     
     @Published var roversList: [Info] = []
+    @Published var roversFiltersList: [Info] = []
     
     init(service: RoverServiceProtocol = RoverRequest()) {
         self.getRovers = service
@@ -30,6 +31,17 @@ extension RoversViewModel {
             .sink { data in
             } receiveValue: { [weak self] data in
                 self?.roversList = data.photos
+            }
+            .store(in: &subscriber)
+    }
+    
+    func getFiltersRovers(type: RequestType, completion: @escaping (Bool) -> Void){
+        self.getRovers.getFiltersRovers(type: type)
+            .receive(on: DispatchQueue.main)
+            .sink { data in
+            } receiveValue: { [weak self] data in
+                self?.roversFiltersList = data.photos
+                completion(true)
             }
             .store(in: &subscriber)
     }
