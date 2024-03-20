@@ -41,7 +41,7 @@ class ViewController: UIViewController {
     private func configAnimation(){
         lottieAnimation.play()
         
-        DispatchQueue.main.asyncAfter(deadline: .now() + 1){
+        DispatchQueue.main.async{
             self.viewModel.getRoversList(page: 0)
         }
     }
@@ -50,8 +50,10 @@ class ViewController: UIViewController {
         self.viewModel.$roversList
             .compactMap({ $0 })
             .sink { [weak self] data in
-                self?.lottieAnimation.stop()
-                self?.presentMain(data: data)
+                if !data.isEmpty {
+                    self?.lottieAnimation.stop()
+                    self?.presentMain(data: data)
+                }
             }.store(in: &subscriber)
     }
     
@@ -60,6 +62,7 @@ class ViewController: UIViewController {
         let storyboard: UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
         let mainVC = storyboard.instantiateViewController(withIdentifier: "MainViewController") as! MainViewController
         mainVC.roverInfo = data
+        mainVC.viewModel = viewModel
         self.navigationController?.pushViewController(mainVC, animated: false)
     }
     
