@@ -290,6 +290,8 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="currentCameraLabel" destination="8uU-9c-eYw" id="b6G-cN-ExV"/>
+                        <outlet property="currentRoverLabel" destination="JID-mm-9cd" id="rNR-IM-JTB"/>
                         <outlet property="dataTableView" destination="6AD-NB-oNf" id="7n4-gs-bnw"/>
                         <outlet property="todayLabel" destination="Mc4-hP-ABx" id="kBY-RO-YQL"/>
                     </connections>

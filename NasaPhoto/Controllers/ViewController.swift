@@ -7,11 +7,16 @@
 
 import UIKit
 import Lottie
+import Combine
 
 class ViewController: UIViewController {
     
     @IBOutlet weak var containerLottie: UIView!
     
+    private var viewModel: RoversViewModel = RoversViewModel()
+    
+    var subscriber = Set<AnyCancellable>()
+
     private var lottieAnimation: LottieAnimationView {
         if let animationPath = Bundle.main.path(forResource: "lottie-animation", ofType: "json") {
             let anime: LottieAnimationView = .init(filePath: animationPath)
@@ -29,6 +34,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        bindingViewModel()
         configAnimation()
     }
     
@@ -36,20 +42,17 @@ class ViewController: UIViewController {
         lottieAnimation.play()
         
         DispatchQueue.main.asyncAfter(deadline: .now() + 1){
-            self.loadRoversData()
+            self.viewModel.getRoversList(page: 0)
         }
     }
     
-    private func loadRoversData(){
-        NasaAPI.shared.getMarsRoverData(page: 0) {[weak self] (roverData, error) in
-            guard let self = self else { return }
-            if let roverData = roverData {
-                lottieAnimation.stop()
-                self.presentMain(data: roverData.photos)
-            }
-            
-            //ERROR
-        }
+    private func bindingViewModel(){
+        self.viewModel.$roversList
+            .compactMap({ $0 })
+            .sink { [weak self] data in
+                self?.lottieAnimation.stop()
+                self?.presentMain(data: data)
+            }.store(in: &subscriber)
     }
     
     
