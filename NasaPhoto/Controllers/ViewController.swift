@@ -12,10 +12,7 @@ import Combine
 class ViewController: UIViewController {
     
     @IBOutlet weak var containerLottie: UIView!
-    
-    private var viewModel: RoversViewModel = RoversViewModel()
-    
-    var subscriber = Set<AnyCancellable>()
+        
 
     private var lottieAnimation: LottieAnimationView {
         if let animationPath = Bundle.main.path(forResource: "lottie-animation", ofType: "json") {
@@ -34,35 +31,21 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        bindingViewModel()
         configAnimation()
     }
     
     private func configAnimation(){
         lottieAnimation.play()
         
-        DispatchQueue.main.async{
-            self.viewModel.getRoversList(page: 0)
+        DispatchQueue.main.asyncAfter(deadline: .now() + 7){
+            self.presentMain()
         }
     }
     
-    private func bindingViewModel(){
-        self.viewModel.$roversList
-            .compactMap({ $0 })
-            .sink { [weak self] data in
-                if !data.isEmpty {
-                    self?.lottieAnimation.stop()
-                    self?.presentMain(data: data)
-                }
-            }.store(in: &subscriber)
-    }
     
-    
-    private func presentMain(data: [Info]){
+    private func presentMain(){
         let storyboard: UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
         let mainVC = storyboard.instantiateViewController(withIdentifier: "MainViewController") as! MainViewController
-        mainVC.roverInfo = data
-        mainVC.viewModel = viewModel
         self.navigationController?.pushViewController(mainVC, animated: false)
     }
     

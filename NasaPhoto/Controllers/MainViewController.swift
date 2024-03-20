@@ -16,7 +16,6 @@ class MainViewController: UIViewController {
     @IBOutlet weak var currentRoverLabel: UILabel!
     
     var roverInfo: [Info] = []
-    var currentFilter: FilterModel = FilterModel(camera: "All", rover: "All", date: "2015-05-30", id: UUID())
     
     var page: Int = 0
     var isPagination:Bool = true
@@ -30,12 +29,27 @@ class MainViewController: UIViewController {
         
         configUI()
         bindingViewModel()
+        viewModel.getRoversList(page: page)
     }
     
     private func configUI(){
         dataTableView.register(UINib(nibName: "MainViewCell", bundle: nil), forCellReuseIdentifier: MainViewCell.id)
         dataTableView.separatorStyle = .none
         
+    }
+    
+    private func updateView(){
+        todayLabel.text = FilterManager.shared.currentFilter.date.convertDateFormat()
+        currentCameraLabel.text = FilterManager.shared.currentFilter.camera
+        currentRoverLabel.text = FilterManager.shared.currentFilter.rover
+        if FilterManager.shared.currentFilter.rover == "All" {
+            roverInfo = FilterManager.shared.roversList
+        }else{
+            roverInfo = FilterManager.shared.roversList.filter {
+                $0.rover.name == FilterManager.shared.currentFilter.rover
+            }
+        }
+        dataTableView.reloadData()
     }
     
     private func bindingViewModel(){
@@ -48,9 +62,21 @@ class MainViewController: UIViewController {
                         result.append(info)
                     }
                 }
-                
                 DispatchQueue.main.async {
                     self?.dataTableView.reloadData()
+                }
+                self?.isPagination = true
+                FilterManager.shared.roversList = data
+            }.store(in: &subscriber)
+        
+        
+        self.viewModel.$roversFiltersList
+            .compactMap({ $0 })
+            .sink { [weak self] data in
+                self?.roverInfo = data
+                FilterManager.shared.roversList = data
+                DispatchQueue.main.async {
+                    self?.updateView()
                 }
             }.store(in: &subscriber)
     }
@@ -61,8 +87,7 @@ class MainViewController: UIViewController {
     @IBAction func openCalendar(_ sender: UIButton){
         let vc: DateFilterController = DateFilterController()
         vc.modalPresentationStyle = .overFullScreen
-        vc.delegate = self
-        vc.currentFilter = currentFilter
+        vc.viewModel = viewModel
         self.present(vc, animated: true)
     }
     
@@ -70,8 +95,7 @@ class MainViewController: UIViewController {
         let vc: FiltersPickerController = FiltersPickerController()
         vc.modalPresentationStyle = .overFullScreen
         vc.ft = .camera
-        vc.currentFilter = currentFilter
-        vc.delegate = self
+        vc.viewModel = viewModel
         self.present(vc, animated: true)
     }
     
@@ -86,7 +110,7 @@ class MainViewController: UIViewController {
     @IBAction func showHistoryAction(_ sender: UIButton){
         let storyboard: UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
         let vc = storyboard.instantiateViewController(withIdentifier: "HistoryViewController") as! HistoryViewController
-        vc.delegate = self
+        vc.viewModel = viewModel
         self.navigationController?.pushViewController(vc, animated: true)
     }
     
@@ -103,7 +127,7 @@ class MainViewController: UIViewController {
     }
     
     private func saveFilter(){
-        CoreDataManager.shared.saveFilters(data: currentFilter)
+        CoreDataManager.shared.saveFilters(data: FilterManager.shared.currentFilter)
     }
 }
 
@@ -133,21 +157,28 @@ extension MainViewController: UITableViewDelegate, UITableViewDataSource, UIScro
         let pos = scrollView.contentOffset.y
         
         if pos > dataTableView.contentSize.height - 50 - scrollView.frame.size.height && isPagination{
-            page += 1
             isPagination = false
-//            viewModel.getRoversList(page: page)
+            if !FilterManager.shared.isFilterOn {
+                page += 1
+                viewModel.getRoversList(page: page)
+            }else{
+                viewModel.getFiltersRovers(type: FilterManager.shared.requestType) { _ in}
+            }
         }
     }
 }
 
-
-extension MainViewController: UpdateRoversDataProtocol {
-    func updateByFilter(data: [Info], currentFilter: FilterModel) {
-        roverInfo = data
-        dataTableView.reloadData()
-        self.currentFilter = currentFilter
-        todayLabel.text = currentFilter.date.convertDateFormat()
-        currentCameraLabel.text = currentFilter.camera
-        currentRoverLabel.text = currentFilter.rover
+extension MainViewController: FilterByRover{
+    func filterRovers() {
+        if FilterManager.shared.currentFilter.rover == "All" {
+            roverInfo = FilterManager.shared.roversList
+        }else{
+            roverInfo = FilterManager.shared.roversList.filter {
+                $0.rover.name == FilterManager.shared.currentFilter.rover
+            }
+        }
+        updateView()
     }
+    
+    
 }
